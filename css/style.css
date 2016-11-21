@@ -1,0 +1,24 @@
+/*Style your own assignment! This is fun! */
+
+
+body {
+	background-image: url("image.jpeg");
+    background-size: cover;
+    background-color: steelblue;
+}
+.header {
+	font-family: 'Fjalla One', sans-serif;
+}
+#text {
+	font-family: 'Open Sans', sans-serif;
+	text-align: justify;
+    text-justify: inter-word;
+}
+.content{
+      margin: auto;
+      margin-bottom: 200px;
+      width: 70%;
+      border: 3px solid #000000;
+      padding: 20px;
+      background-color:rgba(255, 255, 255, .65);
+}
