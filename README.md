@@ -1,4 +1,7 @@
 # cs4241_FinalProject
 Data Visualization of atomic bomb tests around the world.
 
-**Tyler Eats Farts
+**Team Members**
+- Ian Banatoski
+- Luke Buquicchio
+- Tyler Bennett
