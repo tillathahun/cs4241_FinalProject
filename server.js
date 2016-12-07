@@ -16,23 +16,23 @@ var server = http.createServer (function (req, res) {
     case '/css/style.css':
       sendFile(res, 'css/style.css', 'text/css')
       break
-    case '/css/d3.geomap.css':
-      sendFile(res, 'css/d3.geomap.css', 'text/css')
+    case '/d3-geomap/css/d3.geomap.css':
+      sendFile(res, 'd3-geomap/d3.geomap.css', 'text/css')
       break
-    case '/js/d3-geomap/d3.geomap.js':
-      sendFile(res, 'js/d3-geomap/d3.geomap.js', 'application/javascript')
+    case '/d3-geomap/js/d3.geomap.js':
+      sendFile(res, 'd3-geomap/js/d3.geomap.js', 'application/javascript')
       break
-    case '/js/d3-geomap/d3.geomap.min.js':
-      sendFile(res, 'js/d3-geomap/d3.geomap.min.js', 'application/javascript')
+    case '/d3-geomap/js/d3.geomap.min.js':
+      sendFile(res, 'd3-geomap/js/d3.geomap.min.js', 'application/javascript')
       break
     case '/js/script.js':
       sendFile(res, 'js/script.js', 'application/javascript')
       break
-    case '/topojson/world/countries.json':
-      sendFile(res, 'topojson/world/countries.json', 'application/json')
+    case '/d3-geomap/topojson/world/countries.json':
+      sendFile(res, 'd3-geomap/topojson/world/countries.json', 'application/json')
       break
-    case '/vendor/d3.geomap.dependencies.min.js':
-      sendFile(res, 'vendor/d3.geomap.dependencies.min.js', 'application/javascript')
+    case '/d3-geomap/vendor/d3.geomap.dependencies.min.js':
+      sendFile(res, 'd3-geomap/vendor/d3.geomap.dependencies.min.js', 'application/javascript')
       break
     default:
       res.end('404 not found')
