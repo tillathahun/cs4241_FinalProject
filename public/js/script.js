@@ -1,5 +1,8 @@
+<script type="text/javascript">
+
 var map = d3.geomap()
     .geofile('../topojson/world/countries.json');
 
-d3.select('#map')
-    .call(map.draw, map);
+d3.select('#map').call(map.draw, map);
+
+</script>
