@@ -1,3 +1,5 @@
+console.log('ungalo!!!');
+
 var map = d3.geomap()
     .geofile('../topojson/world/countries.json');
 
