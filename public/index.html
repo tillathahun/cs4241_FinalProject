@@ -4,20 +4,19 @@
     <title>CS4241 Assignment 2</title>
     <meta charset="utf-8">
 
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script>-->
+    
+    <link href="/css/d3.geomap.css" rel="stylesheet">
+    <script src="/vendor/d3.geomap.dependencies.min.js"></script>
+    <script src="/js/d3-geomap/d3.geomap.min.js"></script>
+    <!-- <script src="/js/script.js"></script> -->
 
-    <link href="css/d3.geomap.css" rel="stylesheet">
-    <script src="vendor/d3.geomap.dependencies.min.js"></script>
-    <script src="js/d3-geomap/d3.geomap.min.js"></script>
-    <script src="js/script.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"/> -->
 
     <script type="text/javascript">
         console.log('ungalo!!!');
 
-        var map = d3.geomap()
-            .geofile('/topojson/world/countries.json');
+        var map = d3.geomap().geofile('/topojson/world/countries.json');
 
         d3.select('#map').call(map.draw, map);
     </script>
