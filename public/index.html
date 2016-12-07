@@ -3,28 +3,18 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
     <title>CS4241 Assignment 2</title>
     <meta charset="utf-8">
-    
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
     <script src="https://d3js.org/d3.v4.min.js"></script>
+
+    <link href="css/d3.geomap.css" rel="stylesheet">
+    <script src="vendor/d3.geomap.dependencies.min.js"></script>
+    <script src="js/d3-geomap/d3.geomap.min.js"></script>
     <script src="js/scripts.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
   </head>
 
   <body>
-    <div class="header">
-    	<h1>Final Project Proposal</h1>
-        <h2>Ian Banatoski, Luke Buquicchio, Tyler Bennett</h2>
-    </div>
-    <div id="text" class="content">
-    	<p>
-            For our final project, we propose a data visualization tool for all of the recorded nuclear tests.
-            The data is accessible at: <a href="http://www.johnstonsarchive.net/nuclear/tests/"> johnstonsarchive.net </a>
-    	</p>
-        <ul>
-            <li>We will be doing a map overlay of each explosion with a mouse-over displaying more information about each test</li>
-            <li>There will also be visualizations for other statics that are calculated from the gathered data</li>
-            <li>Part of this project will include a data-parser</li>
-            <li>This will also have a slider bar to show the progression of time with each year repopulating the map</li>
-        </ul>
-    </div>
+     <div id="map"></div>
   </body>
 </html>
