@@ -39,8 +39,8 @@ var server = http.createServer (function (req, res) {
       console.log("Oh shit waddup!");
       var contents = $.getJSON( "/public/data/worldNuclearInventory.json");
       // Define to JSON type
-      //var jsonContent = JSON.parse(contents);
-      res.end(JSON.stringify(contents));
+      var jsonContent = JSON.parse(contents);
+      res.end(jsonContent);
       break
     case '/d3-geomap/topojson/world/countries.json':
       sendFile(res, 'd3-geomap/topojson/world/countries.json', 'application/json')
