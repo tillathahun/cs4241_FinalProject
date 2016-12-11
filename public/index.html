@@ -15,24 +15,33 @@
     <script src="/d3-geomap/js/d3.geomap.min.js"></script>
 
     <script type="text/javascript">
-        console.log('ungalo!!!');
+      makeGet('/getData');
 
-        var fs = require("fs");
-        console.log("\n *STARTING* \n");
-       // Get content from file
-        var contents = fs.readFileSync("data/worldNuclearInventory.json");
-       // Define to JSON type
-        var jsonContent = JSON.parse(contents);
-       // Get Value from JSON
-        console.log("Country:", jsonContent[0].Country);
-        console.log("Year:", jsonContent[0].Year);
-        console.log("InventorySize:", jsonContent[0].InventorySize);
+      function makeGet(url) {
+        var req = new XMLHttpRequest();
+        req.onreadystatechange = function() {
+          handleRes(req);
+        }
+        req.open('GET', url);
+        req.send();
+      }
 
-        $.getJSON("/data/worldNuclearInventory.json", function(data){
-            $.each(data, function(i, field){
-                $("div").append(field + " ");
-            });
-        });
+      function handleRes(req) {
+        if( req.readyState !== XMLHttpRequest.DONE )
+          return;
+
+        if(req.status === 200)
+          console.log( JSON.parse(req.responseText) );
+      }
+
+      $.getJSON("/data/worldNuclearInventory.json", function(data){
+          $.each(data, function(i, field){
+              $("div").append(field + " ");
+          });
+      });
+
+
+
     </script>
   </head>
 
