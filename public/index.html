@@ -8,16 +8,23 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="https://d3js.org/topojson.v2.min.js"></script>
-    <script src="lodash.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- End Added by Ian -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <link href="/d3-geomap/css/d3.geomap.css" rel="stylesheet">
     <script src="/d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
     <script src="/d3-geomap/js/d3.geomap.min.js"></script>
-    <script type="text/javascript" src="/data/worldNuclearInventory.json"></script>
 
     <script type="text/javascript">
         console.log('ungalo!!!');
+
+        $.getJSON("/data/worldNuclearInventory.json", function(result){
+          $.each(result, function(d){
+            console.log("-------");
+            console.log(d);
+            console.log("-------");
+          });
+        });
 
         // load the data
         d3.json("/data/worldNuclearInventory.json", function(error, data) {
