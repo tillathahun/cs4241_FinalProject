@@ -18,17 +18,19 @@
     <script type="text/javascript">
         console.log('ungalo!!!');
         $(document).ready(function(){
-
-        $.getJSON("/data/worldNuclearInventory.json", function(data){
-            $.each(data, function(i, field){
-                $("div").append(field + " ");
+            $("button").click(function(){
+              $.getJSON("/data/worldNuclearInventory.json", function(data){
+                    $.each(data, function(i, field){
+                        $("div").append(field + " ");
+                    });
+                });
             });
         });
-      });
     </script>
   </head>
 
   <body>
-     <div></div>
+    <button>Get JSON data</button>
+    <div></div>
   </body>
 </html>
