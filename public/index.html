@@ -20,6 +20,8 @@
 
         // load the data
         d3.json("/data/worldNuclearInventory.json", function(error, data) {
+          console.log(data[0]);
+
 
           data.forEach(function(d) {
             console.log(d)
