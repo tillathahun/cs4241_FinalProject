@@ -8,9 +8,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "jQuery": "^1.7.4"
   },
   "devDependencies": {
-    "jQuery": "^1.7.4"
   }
 }
