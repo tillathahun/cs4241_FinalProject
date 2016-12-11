@@ -1,7 +1,7 @@
 var http = require('http')
   , fs   = require('fs')
   , url  = require('url')
-  , jsdom = require('jsdom').jsdom
+  // , jsdom = require('jsdom').jsdom
   , $ = require('jQuery')
   , port = 8080;
 
@@ -31,12 +31,12 @@ var server = http.createServer (function (req, res) {
       sendFile(res, 'js/script.js', 'application/javascript')
       break
     case '/data/worldNuclearInventory.json':
-     // Get content from file
-     console.log("Oh shit waddup!");
+      // Get content from file
+      console.log("Oh shit waddup!");
       var contents = $.getJSON( "/public/data/worldNuclearInventory.json");
-     // Define to JSON type
-      var jsonContent = JSON.parse(contents);
-      res.end(JSON.stringify(jsonContent));
+      // Define to JSON type
+      //var jsonContent = JSON.parse(contents);
+      res.end(JSON.stringify(contents));
       break
     case '/d3-geomap/topojson/world/countries.json':
       sendFile(res, 'd3-geomap/topojson/world/countries.json', 'application/json')
