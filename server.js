@@ -1,9 +1,9 @@
-var http = require('http')
-  , fs   = require('fs')
-  , url  = require('url')
-  // , jsdom = require('jsdom').jsdom
-  , $ = require('jQuery')
-  , port = 8080;
+var http  = require('http')
+  , fs    = require('fs')
+  , url   = require('url')
+  , jsdom = require("jsdom");
+  , $     = require("jquery")(jsdom.jsdom().createWindow()); 
+  , port  = 8080;
 
 var server = http.createServer (function (req, res) {
   var uri = url.parse(req.url)
