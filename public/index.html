@@ -18,72 +18,25 @@
     <script type="text/javascript">
         console.log('ungalo!!!');
 
-        $.getJSON("/data/worldNuclearInventory.json", function(result){
-          $.each(result, function(d){
-            console.log("-------");
+        $.getJSON("/data/worldNuclearInventory.json", function(data){
+          $.each(data, function(d){
             console.log(d);
-            console.log("-------");
-          });
-        });
-
-        // load the data
-        d3.json("/data/worldNuclearInventory.json", function(error, data) {
-          console.log(data[0]);
-
-
-          data.forEach(function(d) {
-            console.log(d)
-            d.Country = d.Country;
-            d.Year = +d.Year;
-            d.InventorySize = +d.InventorySize;
           });
 
-          // scale the range of the data
-          x.domain(data.map(function(d) { return d.Country; }));
-          y.domain([0, d3.max(data, function(d) { return d.InventorySize; })]);
+          var items = [];
+          $.each( data, function(key, val) {
+            items.push( "<li id='" + key + "'>" + val + "</li>" );
+          });
 
-          // add axis
-          svg.append("g")
-              .attr("class", "x axis")
-              .attr("transform", "translate(0," + height + ")")
-              .call(xAxis)
-            .selectAll("text")
-              .style("text-anchor", "end")
-              .attr("dx", "-.8em")
-              .attr("dy", "-.55em")
-              .attr("transform", "rotate(-90)" );
-
-          svg.append("g")
-              .attr("class", "y axis")
-              .call(yAxis)
-            .append("text")
-              .attr("transform", "rotate(-90)")
-              .attr("y", 5)
-              .attr("dy", ".71em")
-              .style("text-anchor", "end")
-              .text("InventorySize");
-
-
-          // Add bar chart
-          svg.selectAll("bar")
-              .data(data)
-            .enter().append("rect")
-              .attr("class", "bar")
-              .attr("x", function(d) { return x(d.Country); })
-              .attr("width", x.rangeBand())
-              .attr("y", function(d) { return y(d.InventorySize); })
-              .attr("height", function(d) { return height - y(d.InventorySize); });
-
+          $( "<ul/>", {
+            "class": "my-new-list",
+            html: items.join( "" )
+          }).appendTo( "body" );
         });
-        /*
-        var map = d3.geomap().geofile('/topojson/world/countries.json');
-
-        d3.select('#map').call(map.draw, map);
-        */
     </script>
   </head>
 
   <body>
-     <div id="map"></div>
+     <div class="my-new-list"></div>
   </body>
 </html>
