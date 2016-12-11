@@ -16,6 +16,18 @@
 
     <script type="text/javascript">
         console.log('ungalo!!!');
+
+        var fs = require("fs");
+        console.log("\n *STARTING* \n");
+       // Get content from file
+        var contents = fs.readFileSync("data/worldNuclearInventory.json");
+       // Define to JSON type
+        var jsonContent = JSON.parse(contents);
+       // Get Value from JSON
+        console.log("Country:", jsonContent[0].Country);
+        console.log("Year:", jsonContent[0].Year);
+        console.log("InventorySize:", jsonContent[0].InventorySize);
+
         $.getJSON("/data/worldNuclearInventory.json", function(data){
             $.each(data, function(i, field){
                 $("div").append(field + " ");
@@ -25,7 +37,6 @@
   </head>
 
   <body>
-    <button>Get JSON data</button>
     <div></div>
   </body>
 </html>
