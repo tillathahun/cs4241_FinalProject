@@ -1,6 +1,7 @@
 var http = require('http')
   , fs   = require('fs')
   , url  = require('url')
+  , $    = require('jQuery')
   , port = 8080;
 
 var server = http.createServer (function (req, res) {
@@ -31,7 +32,7 @@ var server = http.createServer (function (req, res) {
     case '/data/worldNuclearInventory.json':
      // Get content from file
      console.log("Oh shit waddup!");
-      var contents = fs.readFileSync("/public/data/worldNuclearInventory.json");
+      var contents = $.getJSON( "/public/data/worldNuclearInventory.json");
      // Define to JSON type
       var jsonContent = JSON.parse(contents);
       res.end(JSON.stringify(jsonContent));
