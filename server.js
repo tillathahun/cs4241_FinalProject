@@ -28,9 +28,9 @@ var server = http.createServer (function (req, res) {
     case '/js/script.js':
       sendFile(res, 'js/script.js', 'application/javascript')
       break
-    case '/getData':
+    case '/data/worldNuclearInventory.json':
      // Get content from file
-      var contents = fs.readFileSync("data/worldNuclearInventory.json");
+      var contents = fs.readFileSync("/data/worldNuclearInventory.json");
      // Define to JSON type
       var jsonContent = JSON.parse(contents);
       res.end(JSON.stringify(jsonContent));
