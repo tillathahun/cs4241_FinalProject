@@ -17,26 +17,17 @@
 
     <script type="text/javascript">
         console.log('ungalo!!!');
+        $(document).ready(function(){
 
         $.getJSON("/data/worldNuclearInventory.json", function(data){
-          $.each(data, function(d){
-            console.log(d);
-          });
-
-          var items = [];
-          $.each( data, function(key, val) {
-            items.push( "<li id='" + key + "'>" + val + "</li>" );
-          });
-
-          $( "<ul/>", {
-            "class": "my-new-list",
-            html: items.join( "" )
-          }).appendTo( "body" );
+            $.each(data, function(i, field){
+                $("div").append(field + " ");
+            });
         });
     </script>
   </head>
 
   <body>
-     <div class="my-new-list"></div>
+     <div></div>
   </body>
 </html>
