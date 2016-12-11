@@ -20,7 +20,7 @@
         console.log(data);
       });
       function fetchJSONFile(url, callback) {
-        var req = new XMLHttpRequest();
+        var httpRequest = new XMLHttpRequest();
 
         httpRequest.onreadystatechange = function() {
           if (httpRequest.readyState === 4) {
