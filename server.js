@@ -30,6 +30,7 @@ var server = http.createServer (function (req, res) {
       break
     case '/data/worldNuclearInventory.json':
      // Get content from file
+     console.alert("Oh shit waddup!");
       var contents = fs.readFileSync("/public/data/worldNuclearInventory.json");
      // Define to JSON type
       var jsonContent = JSON.parse(contents);
