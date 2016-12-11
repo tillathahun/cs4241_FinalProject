@@ -33,7 +33,7 @@ var server = http.createServer (function (req, res) {
       var contents = fs.readFileSync("data/worldNuclearInventory.json");
      // Define to JSON type
       var jsonContent = JSON.parse(contents);
-      res.end(JSON.stringify(jsonContent);
+      res.end(JSON.stringify(jsonContent));
       break
     case '/d3-geomap/topojson/world/countries.json':
       sendFile(res, 'd3-geomap/topojson/world/countries.json', 'application/json')
