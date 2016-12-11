@@ -1,7 +1,11 @@
 var http = require('http')
   , fs   = require('fs')
   , url  = require('url')
-  , $    = require('jQuery')
+  , jsdom = require('jsdom').jsdom
+  , myWindow = jsdom().createWindow()
+  , $ = require('jQuery')
+  , jq = require('jQuery').create()
+  , jQuery = require('jQuery').create(myWindow)
   , port = 8080;
 
 var server = http.createServer (function (req, res) {
