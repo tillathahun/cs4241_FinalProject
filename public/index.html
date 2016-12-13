@@ -13,6 +13,14 @@
     <script type="text/javascript">
       var nuclearInvData = [];
 
+      var compiled = _.template(
+        "<div class='countries'>" +
+          "<h2><%= Country %></h2>" +
+          "<p><%= Year %></p>" +
+          "<p><%= InventorySize %></p>" +
+        "</div>"
+      );
+
           // Fancy thing.
       if( localStorage && localStorage.getItem('nuclearInvData') ) {
       console.log('loading from local');
@@ -41,10 +49,21 @@
           localStorage.setItem('nuclearInvData', req.responseText);
         }
       }
+
+      function buildList( A ) {
+        var i, toAppendString = "";
+        for (i = 0; i < A.length; i++) {
+          toAppendString += compiled(A[i]);
+        }
+        document.querySelector("#countries").innerHTML = toAppendString;
+      }
+
     </script>
   </head>
 
   <body>
-    <div></div>
+    <h1> LocalStorage Examples ~ FlightBook </h1>
+    <div id="countries">
+    </div>
   </body>
 </html>
