@@ -102,10 +102,7 @@
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
       var partitionedNukeInv = [];
       function manipulateData (data) {
-        partitionedNukeInv = _.partition(data, function (o) {
-          console.log(o.Country);
-          return o.Country
-        });
+        partitionedNukeInv = _.values(_.groupBy(data, "Country"));
         console.log(partitionedNukeInv);
 
         console.log('manipulate data');
