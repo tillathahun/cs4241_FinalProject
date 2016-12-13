@@ -34,9 +34,18 @@
       if( localStorage && localStorage.getItem('nuclearInvData') ) {
       console.log('loading from local');
       buildList( JSON.parse(localStorage.getItem('nuclearInvData')) )
+      loadDataIntoGlobals( JSON.parse(localStorage.getItem('nuclearInvData')) )
       } else {
       console.log('loading from server');
       getJSON('/worldNuclearInventory');
+      }
+
+      function loadDataIntoGlobals (jsonObj){
+        console.log(jsonObj)
+        jsonObj.forEach( function(element) {
+          console.log(element);
+          nuclearInvData.push(element);
+        });
       }
 
       function getJSON(url) {
@@ -55,9 +64,7 @@
 
         if(req.status === 200) {
           nuclearInvData = JSON.parse(req.responseText);
-          nuclearInvData.forEach( function(element) {
-            console.log(element);
-          });
+          loadDataIntoGlobals( JSON.parse(req.responseText) )
           localStorage.setItem('nuclearInvData', req.responseText);
           buildList( nuclearInvData )
         }
