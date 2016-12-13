@@ -19,12 +19,12 @@
         var map = d3.geomap().geofile('/topojson/world/countries.json');
 
         d3.select('#map').call(map.draw, map);
-
-        <table id="statistics" class="table table-condensed table-striped"></table>
     </script>
   </head>
 
   <body>
      <div id="map"></div>
+
+    <table id="statistics" class="table table-condensed table-striped"></table>
   </body>
 </html>
