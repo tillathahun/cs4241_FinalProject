@@ -1,12 +1,7 @@
 var http  = require('http')
   , fs    = require('fs')
   , url   = require('url')
-  // Load jsdom, and create a window.
-  , jsdom = require("jsdom").jsdom
-  , doc   = jsdom()
-  , window = doc.defaultView
-  // Load jQuery with the simulated jsdom window.
-  , $ = require('jquery')(window)
+  , path = require('path')
   , port  = 8080;
 
 var server = http.createServer (function (req, res) {
