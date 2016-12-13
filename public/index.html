@@ -55,6 +55,9 @@
 
         if(req.status === 200) {
           nuclearInvData = JSON.parse(req.responseText);
+          nuclearInvData.forEach( function(element) {
+            console.log(element);
+          });
           localStorage.setItem('nuclearInvData', req.responseText);
           buildList( nuclearInvData )
         }
@@ -64,6 +67,7 @@
         console.log(nuclearInvData)
         var i, toAppendString = "";
         for (i = 0; i < A.length; i++) {
+
           toAppendString += compiled(A[i]);
         }
         document.querySelector("#countries").innerHTML = toAppendString;
