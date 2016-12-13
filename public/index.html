@@ -98,6 +98,11 @@
         width = +svg.attr("width") - margin.left - margin.right,
         height = +svg.attr("height") - margin.top - margin.bottom;
 
+
+        drawEachGraph (partitionedNukeInv[0])
+      }
+
+      drawEachGraph (countryData) {
         var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
             y = d3.scaleLinear().rangeRound([height, 0]);
 
@@ -105,8 +110,8 @@
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         console.log('manipulate data');
-        x.domain(data.map(function(d) { return d.letter; }));
-        y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
+        x.domain(data.map(function(d) { return d.Year; }));
+        y.domain([0, d3.max(data, function(d) { return d.InventorySize; })]);
 
         g.append("g")
             .attr("class", "axis axis--x")
