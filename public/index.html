@@ -54,7 +54,7 @@
         return;
 
         if(req.status === 200) {
-          var nuclearInvData = JSON.parse(req.responseText);
+          nuclearInvData = JSON.parse(req.responseText);
           localStorage.setItem('nuclearInvData', req.responseText);
           buildList( nuclearInvData )
         }
