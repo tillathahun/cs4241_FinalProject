@@ -34,15 +34,10 @@ var server = http.createServer (function (req, res) {
     case '/js/script.js':
       sendFile(res, 'js/script.js', 'application/javascript')
       break
-    case '/data/worldNuclearInventory.json':
+    case '/worldNuclearInventory':
       // Get content from file
       console.log("Oh shit waddup!");
-      var contents = $.getJSON( "/public/data/worldNuclearInventory.json", function(data) {
-        res.end(data);
-      });
-      // Define to JSON type
-      // var jsonContent = JSON.parse(contents);
-      // res.end(contents);
+      sendJSON(res, 'worldNuclearInventory.json');
       break
     case '/d3-geomap/topojson/world/countries.json':
       sendFile(res, 'd3-geomap/topojson/world/countries.json', 'application/json')
@@ -60,12 +55,32 @@ console.log('listening on 8080')
 
 // subroutines
 
-function sendFile(res, filename, contentType) {
-  contentType = contentType || 'text/html';
+function sendJSON(res, filename) {
+  res.writeHead(200, {'Content-type': 'application/json'})
 
-  fs.readFile(filename, function(error, content) {
-    res.writeHead(200, {'Content-type': contentType})
-    res.end(content, 'utf-8')
+  var stream = fs.createReadStream(filename)
+
+  stream.on('data', function(data) {
+    res.write(data);
   })
 
+  stream.on('end', function(data) {
+    res.end();
+    return;
+  })
+}
+
+function sendFile(res, filename) {
+  res.writeHead(200, {'Content-type': 'text/html'})
+
+  var stream = fs.createReadStream(filename)
+
+  stream.on('data', function(data) {
+    res.write(data);
+  })
+
+  stream.on('end', function(data) {
+    res.end();
+    return;
+  })
 }
