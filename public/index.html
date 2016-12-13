@@ -19,6 +19,13 @@
         var map = d3.geomap().geofile('/topojson/world/countries.json');
 
         d3.select('#map').call(map.draw, map);
+
+        var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1of8KfBDg4tfXjNFDM4ZJZh10NlTz4UQKx0ihGGI5vIA/edit?invite=CO61x-QI&ts=584850d8#gid=0';
+
+        // Load an entire worksheet.
+        $('#statistics').sheetrock({
+          url: mySpreadsheet
+        });
     </script>
   </head>
 
