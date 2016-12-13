@@ -15,23 +15,34 @@
     <script src="/d3-geomap/js/d3.geomap.min.js"></script>
 
     <script type="text/javascript">
-      fetchJSONFile('/data/worldNuclearInventory.json', function(data){
-        // do something with your data
-        console.log(data);
-      });
-      function fetchJSONFile(url, callback) {
-        var httpRequest = new XMLHttpRequest();
+          // Fancy thing.
+      if( localStorage && localStorage.getItem('nuclearInvData') ) {
+      console.log('loading from local');
+      buildList( JSON.parse(localStorage.getItem('nuclearInvData')) )
+      } else {
+      console.log('loading from server');
+      getJSON('/worldNuclearInventory');
+      }
 
-        httpRequest.onreadystatechange = function() {
-          if (httpRequest.readyState === 4) {
-            if (httpRequest.status === 200) {
-              var data = JSON.parse(httpRequest.responseText);
-              if (callback) callback(data);
-            }
-          }
-        };
-        httpRequest.open('GET', url);
-        httpRequest.send();
+      function getJSON(url) {
+      var req = new XMLHttpRequest();
+      req.onreadystatechange = function() {
+        handleRes(req);
+      }
+
+      req.open('GET', url);
+      req.send();
+      }
+
+      function handleRes(req) {
+        if( req.readyState !== XMLHttpRequest.DONE )
+        return;
+
+        if(req.status === 200) {
+          var flights = JSON.parse(req.responseText);
+          localStorage.setItem('nuclearInvData', req.responseText);
+          buildList( flights );
+        }
       }
     </script>
   </head>
