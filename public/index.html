@@ -15,6 +15,8 @@
     <script src="/d3-geomap/js/d3.geomap.min.js"></script>
 
     <script type="text/javascript">
+      var nuclearInvData = [];
+
           // Fancy thing.
       if( localStorage && localStorage.getItem('nuclearInvData') ) {
       console.log('loading from local');
@@ -39,9 +41,8 @@
         return;
 
         if(req.status === 200) {
-          var flights = JSON.parse(req.responseText);
+          var nuclearInvData = JSON.parse(req.responseText);
           localStorage.setItem('nuclearInvData', req.responseText);
-          buildList( flights );
         }
       }
     </script>
