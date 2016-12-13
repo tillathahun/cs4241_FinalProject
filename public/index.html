@@ -41,11 +41,11 @@
       }
 
       function loadDataIntoGlobals (jsonObj){
-        console.log(jsonObj)
-        jsonObj.forEach( function(element) {
-          console.log(element);
-          nuclearInvData.push(element);
-        });
+        // jsonObj.forEach( function(element) {
+        //   nuclearInvData.push(element);
+        // });
+        nuclearInvData = jsonObj;
+        console.log("nuclearInvData: " + nuclearInvData)
       }
 
       function getJSON(url) {
@@ -71,7 +71,6 @@
       }
 
       function buildList( A ) {
-        console.log(nuclearInvData)
         var i, toAppendString = "";
         for (i = 0; i < A.length; i++) {
 
