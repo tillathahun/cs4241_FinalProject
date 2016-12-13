@@ -32,7 +32,7 @@ var server = http.createServer (function (req, res) {
     case '/worldNuclearInventory':
       // Get content from file
       console.log("Oh shit waddup!");
-      sendJSON(res, 'worldNuclearInventory.json');
+      sendJSON(res, '/public/data/worldNuclearInventory.json');
       break
     case '/d3-geomap/topojson/world/countries.json':
       sendFile(res, 'd3-geomap/topojson/world/countries.json', 'application/json')
