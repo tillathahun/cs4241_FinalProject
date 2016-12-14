@@ -140,7 +140,7 @@
         rect.setAttribute('height',400);
         rect.setAttribute('fill','#95B3D7');
         svgElement.appendChild(rect);
-        document.querySelector("#countries").appendChild(svgElement);
+        document.body.appendChild(svgElement);
 
         var svg = d3.select(svgElement),
         //var svg = d3.select(countryData[0].Country),
