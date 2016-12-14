@@ -107,7 +107,7 @@
           loadDataIntoGlobals('/nuclearInvData', JSON.parse(localStorage.getItem('nuclearInvData')) )
           localStorage.setItem('/nuclearInvData', req.responseText);
 
-          buildList( nuclearInvData )
+          //buildList( nuclearInvData )
         }
       }
 
@@ -144,23 +144,22 @@
 
 
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-            var svgNS = svgElement.namespaceURI;
-
-            var rect = document.createElementNS(svgNS,'rect');
+        var svgNS = svgElement.namespaceURI;
+        var rect = document.createElementNS(svgNS,'rect');
             rect.setAttribute('x',5);
             rect.setAttribute('y',5);
-            rect.setAttribute('width',500);
+            rect.setAttribute('width',1300);
             rect.setAttribute('height',500);
             rect.setAttribute('fill','#95B3D7');
             svgElement.appendChild(rect);
             document.body.appendChild(svgElement);
 
-            var h = document.createElement('p');
-            var t = h.innerHTML='Hello World';
-            document.body.appendChild(h);
+        var h = document.createElement('p');
+        var t = h.innerHTML='Hello World';
+        document.body.appendChild(h);
 
 
-        var svg = d3.select("svg"),
+        var svg = d3.select(svgElement),
         //var svg = d3.select(countryData[0].Country),
         margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = +svg.attr("width") - margin.left - margin.right,
