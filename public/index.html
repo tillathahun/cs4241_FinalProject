@@ -49,7 +49,7 @@
         if( datasetName === '/nuclearInvData') {
           nuclearInvData = jsonObj;
           console.log(nuclearInvData)
-          partitionedNukeInv = _.values(_.groupBy(data, "Country"));
+          partitionedNukeInv = _.values(_.groupBy(nuclearInvData, "Country"));
           console.log(partitionedNukeInv);
           drawEachGraph (partitionedNukeInv[0])
         } else if (datasetName === '/nuclearTests'){
