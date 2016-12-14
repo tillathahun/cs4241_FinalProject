@@ -61,6 +61,7 @@
           console.log('-----------nuclearInvData-------------');
           console.log(nuclearInvData);
           partitionedNukeInv = _.values(_.groupBy(nuclearInvData, "Country"));
+          console.log(partitionedNukeInv);
           // drawEachGraph(partitionedNukeInv[0]);
           _.map(partitionedNukeInv, (n) => {
                 drawEachGraph(n);
@@ -127,7 +128,12 @@
       //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
       function drawEachGraph (countryData) {
-        var svg = d3.select("svg"),
+
+
+        var newsvg = document.createElementNS("http://www.w3.org/2000/svg", countryData[0].Country);
+
+
+        var svg = d3.select(countryData[0].Country),
         margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = +svg.attr("width") - margin.left - margin.right,
         height = +svg.attr("height") - margin.top - margin.bottom;
