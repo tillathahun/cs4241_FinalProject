@@ -2,7 +2,7 @@
   {
     "nation": "USA",
     "testname": "Trinity",
-    "date": "16-Jul-45",
+    "date": "07/16/45",
     "latitude": 33.6,
     "longitude": -106.5,
     "yield": 19.3,
@@ -14,7 +14,7 @@
   {
     "nation": "USA",
     "testname": "Little Boy",
-    "date": "5-Aug-45",
+    "date": "08/05/45",
     "latitude": 34.3914,
     "longitude": 132.4581,
     "yield": 15,
@@ -26,7 +26,7 @@
   {
     "nation": "USA",
     "testname": "Fat Man",
-    "date": "9-Aug-45",
+    "date": "08/09/45",
     "latitude": 32.77017,
     "longitude": 129.86567,
     "yield": 21,
@@ -38,7 +38,7 @@
   {
     "nation": "USA",
     "testname": "CROSSROADS-Able",
-    "date": "30-Jun-46",
+    "date": "06/30/46",
     "latitude": 11.6,
     "longitude": 165.51,
     "yield": 19.1,
@@ -50,7 +50,7 @@
   {
     "nation": "USA",
     "testname": "CROSSROADS-Baker",
-    "date": "24-Jul-46",
+    "date": "07/24/46",
     "latitude": 11.6,
     "longitude": 165.51,
     "yield": 20.3,
@@ -62,7 +62,7 @@
   {
     "nation": "USA",
     "testname": "SANDSTONE-X-Ray",
-    "date": "14-Apr-48",
+    "date": "04/14/48",
     "latitude": 11.667,
     "longitude": 162.24,
     "yield": 36.5,
@@ -74,7 +74,7 @@
   {
     "nation": "USA",
     "testname": "SANDSTONE-Yoke",
-    "date": "30-Apr-48",
+    "date": "04/30/48",
     "latitude": 11.622,
     "longitude": 162.32,
     "yield": 48.7,
@@ -86,7 +86,7 @@
   {
     "nation": "USA",
     "testname": "SANDSTONE-Zebra",
-    "date": "14-May-48",
+    "date": "05/14/48",
     "latitude": 11.555,
     "longitude": 162.354,
     "yield": 18.2,
@@ -98,7 +98,7 @@
   {
     "nation": "USSR",
     "testname": "Pervaya Molniya",
-    "date": "9-Aug-49",
+    "date": "08/09/49",
     "latitude": 50.2,
     "longitude": 78.3,
     "yield": 22,
@@ -110,7 +110,7 @@
   {
     "nation": "USA",
     "testname": "RANGER-Able",
-    "date": "27-Jan-51",
+    "date": "01/27/51",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 1,
@@ -122,7 +122,7 @@
   {
     "nation": "USA",
     "testname": "RANGER-Baker",
-    "date": "28-Jan-51",
+    "date": "01/28/51",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 8,
@@ -134,7 +134,7 @@
   {
     "nation": "USA",
     "testname": "RANGER-Easy",
-    "date": "1-Feb-51",
+    "date": "02/01/51",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 1,
@@ -146,7 +146,7 @@
   {
     "nation": "USA",
     "testname": "RANGER-Baker-2",
-    "date": "2-Feb-51",
+    "date": "02/02/51",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 8,
@@ -158,7 +158,7 @@
   {
     "nation": "USA",
     "testname": "RANGER-Fox",
-    "date": "6-Feb-51",
+    "date": "02/06/51",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 22,
@@ -170,7 +170,7 @@
   {
     "nation": "USA",
     "testname": "GREENHOUSE-Dog",
-    "date": "7-Apr-51",
+    "date": "04/07/51",
     "latitude": 11.555,
     "longitude": 162.354,
     "yield": 81,
@@ -182,7 +182,7 @@
   {
     "nation": "USA",
     "testname": "GREENHOUSE-Easy",
-    "date": "20-Apr-51",
+    "date": "04/20/51",
     "latitude": 11.668,
     "longitude": 162.24,
     "yield": 46.7,
@@ -194,7 +194,7 @@
   {
     "nation": "USA",
     "testname": "GREENHOUSE-George",
-    "date": "8-May-51",
+    "date": "05/08/51",
     "latitude": 11.623,
     "longitude": 162.32,
     "yield": 225,
@@ -206,7 +206,7 @@
   {
     "nation": "USA",
     "testname": "GREENHOUSE-Item",
-    "date": "24-May-51",
+    "date": "05/24/51",
     "latitude": 11.672,
     "longitude": 162.248,
     "yield": 45.5,
@@ -218,7 +218,7 @@
   {
     "nation": "USSR",
     "testname": "Vtoroya Molniya",
-    "date": "24-Sep-51",
+    "date": "09/24/51",
     "latitude": 50.2,
     "longitude": 78.3,
     "yield": 38,
@@ -230,7 +230,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 3)",
-    "date": "18-Oct-51",
+    "date": "10/18/51",
     "latitude": 48,
     "longitude": 76,
     "yield": 41.5,
@@ -242,7 +242,7 @@
   {
     "nation": "USA",
     "testname": "BUSTER-JANGLE-Able",
-    "date": "22-Oct-51",
+    "date": "10/22/51",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0.05,
@@ -254,7 +254,7 @@
   {
     "nation": "USA",
     "testname": "BUSTER-JANGLE-Baker",
-    "date": "28-Oct-51",
+    "date": "10/28/51",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 3.5,
@@ -266,7 +266,7 @@
   {
     "nation": "USA",
     "testname": "BUSTER-JANGLE-Charlie",
-    "date": "30-Oct-51",
+    "date": "10/30/51",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 14,
@@ -278,7 +278,7 @@
   {
     "nation": "USA",
     "testname": "BUSTER-JANGLE-Dog",
-    "date": "1-Nov-51",
+    "date": "11/01/51",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 21,
@@ -290,7 +290,7 @@
   {
     "nation": "USA",
     "testname": "BUSTER-JANGLE-Easy",
-    "date": "5-Nov-51",
+    "date": "11/05/51",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 31.4,
@@ -302,7 +302,7 @@
   {
     "nation": "USA",
     "testname": "BUSTER-JANGLE-Sugar",
-    "date": "19-Nov-51",
+    "date": "11/19/51",
     "latitude": 37.15,
     "longitude": -116,
     "yield": 1.2,
@@ -314,7 +314,7 @@
   {
     "nation": "USA",
     "testname": "TUMBLER-SNAPPER-Able",
-    "date": "1-Apr-52",
+    "date": "04/01/52",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 1,
@@ -326,7 +326,7 @@
   {
     "nation": "USA",
     "testname": "TUMBLER-SNAPPER-Baker",
-    "date": "15-Apr-52",
+    "date": "04/15/52",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 1,
@@ -338,7 +338,7 @@
   {
     "nation": "USA",
     "testname": "TUMBLER-SNAPPER-Charlie",
-    "date": "22-Apr-52",
+    "date": "04/22/52",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 31,
@@ -350,7 +350,7 @@
   {
     "nation": "USA",
     "testname": "TUMBLER-SNAPPER-Dog",
-    "date": "1-May-52",
+    "date": "05/01/52",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 19,
@@ -362,7 +362,7 @@
   {
     "nation": "USA",
     "testname": "TUMBLER-SNAPPER-Easy",
-    "date": "7-May-52",
+    "date": "05/07/52",
     "latitude": 37,
     "longitude": -116.1,
     "yield": 12,
@@ -374,7 +374,7 @@
   {
     "nation": "USA",
     "testname": "TUMBLER-SNAPPER-Fox",
-    "date": "25-May-52",
+    "date": "05/25/52",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 11,
@@ -386,7 +386,7 @@
   {
     "nation": "USA",
     "testname": "TUMBLER-SNAPPER-George",
-    "date": "1-Jun-52",
+    "date": "06/01/52",
     "latitude": 37,
     "longitude": -116,
     "yield": 15,
@@ -398,7 +398,7 @@
   {
     "nation": "USA",
     "testname": "TUMBLER-SNAPPER-How",
-    "date": "5-Jun-52",
+    "date": "06/05/52",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 14,
@@ -410,7 +410,7 @@
   {
     "nation": "UK",
     "testname": "Hurricane",
-    "date": "3-Oct-52",
+    "date": "10/03/52",
     "latitude": -20.4,
     "longitude": 115.57,
     "yield": 25,
@@ -422,7 +422,7 @@
   {
     "nation": "USA",
     "testname": "IVY-Mike",
-    "date": "31-Oct-52",
+    "date": "10/31/52",
     "latitude": 11.669,
     "longitude": 162.196,
     "yield": 10400,
@@ -434,7 +434,7 @@
   {
     "nation": "USA",
     "testname": "IVY-King",
-    "date": "15-Nov-52",
+    "date": "11/15/52",
     "latitude": 11.56,
     "longitude": 162.354,
     "yield": 500,
@@ -446,7 +446,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Annie",
-    "date": "17-Mar-53",
+    "date": "03/17/53",
     "latitude": 37,
     "longitude": -116,
     "yield": 16,
@@ -458,7 +458,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Nancy",
-    "date": "24-Mar-53",
+    "date": "03/24/53",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 24,
@@ -470,7 +470,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Ruth",
-    "date": "31-Mar-53",
+    "date": "03/31/53",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0.2,
@@ -482,7 +482,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Dixie",
-    "date": "6-Apr-53",
+    "date": "04/06/53",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 11,
@@ -494,7 +494,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Ray",
-    "date": "11-Apr-53",
+    "date": "04/11/53",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 0.2,
@@ -506,7 +506,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Badger",
-    "date": "18-Apr-53",
+    "date": "04/18/53",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 23,
@@ -518,7 +518,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Simon",
-    "date": "25-Apr-53",
+    "date": "04/25/53",
     "latitude": 37,
     "longitude": -116.1,
     "yield": 42.7,
@@ -530,7 +530,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Encore",
-    "date": "8-May-53",
+    "date": "05/08/53",
     "latitude": 36.8,
     "longitude": -116,
     "yield": 27,
@@ -542,7 +542,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Harry",
-    "date": "19-May-53",
+    "date": "05/19/53",
     "latitude": 37,
     "longitude": -116,
     "yield": 32,
@@ -554,7 +554,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Grable",
-    "date": "25-May-53",
+    "date": "05/25/53",
     "latitude": 36.8,
     "longitude": -116,
     "yield": 15,
@@ -566,7 +566,7 @@
   {
     "nation": "USA",
     "testname": "UPSHOT-KNOTHOLE-Climax",
-    "date": "4-Jun-53",
+    "date": "06/04/53",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 60.8,
@@ -578,7 +578,7 @@
   {
     "nation": "UK",
     "testname": "TOTEM T1",
-    "date": "14-Oct-53",
+    "date": "10/14/53",
     "latitude": -28.68,
     "longitude": 132.34,
     "yield": 10,
@@ -590,7 +590,7 @@
   {
     "nation": "UK",
     "testname": "TOTEM T2",
-    "date": "26-Oct-53",
+    "date": "10/26/53",
     "latitude": -28.7,
     "longitude": 132.35,
     "yield": 8,
@@ -602,7 +602,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 4)",
-    "date": "12-Aug-53",
+    "date": "08/12/53",
     "latitude": 48,
     "longitude": 80,
     "yield": 400,
@@ -614,7 +614,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 5)",
-    "date": "23-Aug-53",
+    "date": "08/23/53",
     "latitude": 50,
     "longitude": 78,
     "yield": 28,
@@ -626,7 +626,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 6)",
-    "date": "3-Sep-53",
+    "date": "09/03/53",
     "latitude": 50,
     "longitude": 78,
     "yield": 5.8,
@@ -638,7 +638,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "8-Sep-53",
+    "date": "09/08/53",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.6,
@@ -650,7 +650,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Sep-53",
+    "date": "09/10/53",
     "latitude": 50,
     "longitude": 78,
     "yield": 4.9,
@@ -662,7 +662,7 @@
   {
     "nation": "USA",
     "testname": "CASTLE-Bravo",
-    "date": "28-Feb-54",
+    "date": "02/28/54",
     "latitude": 11.69,
     "longitude": 165.27,
     "yield": 15000,
@@ -674,7 +674,7 @@
   {
     "nation": "USA",
     "testname": "CASTLE-Romeo",
-    "date": "26-Mar-54",
+    "date": "03/26/54",
     "latitude": 11.69,
     "longitude": 165.27,
     "yield": 11000,
@@ -686,7 +686,7 @@
   {
     "nation": "USA",
     "testname": "CASTLE-Koon",
-    "date": "6-Apr-54",
+    "date": "04/06/54",
     "latitude": 11.5,
     "longitude": 165.36,
     "yield": 110,
@@ -698,7 +698,7 @@
   {
     "nation": "USA",
     "testname": "CASTLE-Union",
-    "date": "25-Apr-54",
+    "date": "04/25/54",
     "latitude": 11.68,
     "longitude": 165.39,
     "yield": 6900,
@@ -710,7 +710,7 @@
   {
     "nation": "USA",
     "testname": "CASTLE-Yankee",
-    "date": "4-May-54",
+    "date": "05/04/54",
     "latitude": 11.68,
     "longitude": 165.39,
     "yield": 13500,
@@ -722,7 +722,7 @@
   {
     "nation": "USA",
     "testname": "CASTLE-Nectar",
-    "date": "13-May-54",
+    "date": "05/13/54",
     "latitude": 11.669,
     "longitude": 162.196,
     "yield": 1690,
@@ -734,7 +734,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "14-Sep-54",
+    "date": "09/14/54",
     "latitude": 53,
     "longitude": 53,
     "yield": 40,
@@ -746,7 +746,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "29-Sep-54",
+    "date": "09/29/54",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.2,
@@ -758,7 +758,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Oct-54",
+    "date": "10/01/54",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.03,
@@ -770,7 +770,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 9)",
-    "date": "3-Oct-54",
+    "date": "10/03/54",
     "latitude": 50,
     "longitude": 78,
     "yield": 2,
@@ -782,7 +782,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 10)",
-    "date": "5-Oct-54",
+    "date": "10/05/54",
     "latitude": 50,
     "longitude": 78,
     "yield": 4,
@@ -794,7 +794,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 11)",
-    "date": "8-Oct-54",
+    "date": "10/08/54",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.8,
@@ -806,7 +806,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "19-Oct-54",
+    "date": "10/19/54",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.0005,
@@ -818,7 +818,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 12)",
-    "date": "23-Oct-54",
+    "date": "10/23/54",
     "latitude": 50,
     "longitude": 78,
     "yield": 62,
@@ -830,7 +830,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 13)",
-    "date": "26-Oct-54",
+    "date": "10/26/54",
     "latitude": 50,
     "longitude": 78,
     "yield": 2.8,
@@ -842,7 +842,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 14)",
-    "date": "30-Oct-54",
+    "date": "10/30/54",
     "latitude": 50,
     "longitude": 78,
     "yield": 10,
@@ -854,7 +854,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Wasp",
-    "date": "18-Feb-55",
+    "date": "02/18/55",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 1,
@@ -866,7 +866,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Moth",
-    "date": "22-Feb-55",
+    "date": "02/22/55",
     "latitude": 37,
     "longitude": -116,
     "yield": 2,
@@ -878,7 +878,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Tesla",
-    "date": "1-Mar-55",
+    "date": "03/01/55",
     "latitude": 37.15,
     "longitude": -116,
     "yield": 7,
@@ -890,7 +890,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Turk",
-    "date": "7-Mar-55",
+    "date": "03/07/55",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 43,
@@ -902,7 +902,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Hornet",
-    "date": "12-Mar-55",
+    "date": "03/12/55",
     "latitude": 37,
     "longitude": -116,
     "yield": 4,
@@ -914,7 +914,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Bee",
-    "date": "22-Mar-55",
+    "date": "03/22/55",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 8,
@@ -926,7 +926,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Apple-1",
-    "date": "29-Mar-55",
+    "date": "03/29/55",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 14,
@@ -938,7 +938,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Wasp Prime",
-    "date": "29-Mar-55",
+    "date": "03/29/55",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 3,
@@ -950,7 +950,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-HA",
-    "date": "6-Apr-55",
+    "date": "04/06/55",
     "latitude": 36.8,
     "longitude": -116,
     "yield": 3,
@@ -962,7 +962,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Post",
-    "date": "9-Apr-55",
+    "date": "04/09/55",
     "latitude": 37.15,
     "longitude": -116,
     "yield": 2,
@@ -974,7 +974,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-MET",
-    "date": "15-Apr-55",
+    "date": "04/15/55",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 22,
@@ -986,7 +986,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Apple-2",
-    "date": "5-May-55",
+    "date": "05/05/55",
     "latitude": 37,
     "longitude": -116.1,
     "yield": 28.5,
@@ -998,7 +998,7 @@
   {
     "nation": "USA",
     "testname": "Wigwam",
-    "date": "14-May-55",
+    "date": "05/14/55",
     "latitude": 29,
     "longitude": -126,
     "yield": 30,
@@ -1010,7 +1010,7 @@
   {
     "nation": "USA",
     "testname": "TEAPOT-Zucchini",
-    "date": "15-May-55",
+    "date": "05/15/55",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 28,
@@ -1022,7 +1022,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 15)",
-    "date": "29-Jul-55",
+    "date": "07/29/55",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.3,
@@ -1034,7 +1034,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 16)",
-    "date": "2-Aug-55",
+    "date": "08/02/55",
     "latitude": 50,
     "longitude": 78,
     "yield": 11.5,
@@ -1046,7 +1046,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "5-Aug-55",
+    "date": "08/05/55",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.2,
@@ -1058,7 +1058,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 17)",
-    "date": "21-Sep-55",
+    "date": "09/21/55",
     "latitude": 70.72,
     "longitude": 54.38,
     "yield": 3.5,
@@ -1070,7 +1070,7 @@
   {
     "nation": "USA",
     "testname": "PROJECT 56-Number 1",
-    "date": "1-Nov-55",
+    "date": "11/01/55",
     "latitude": 37,
     "longitude": -115.95,
     "yield": 0,
@@ -1082,7 +1082,7 @@
   {
     "nation": "USA",
     "testname": "PROJECT 56-Number 2",
-    "date": "3-Nov-55",
+    "date": "11/03/55",
     "latitude": 37,
     "longitude": -115.95,
     "yield": 0,
@@ -1094,7 +1094,7 @@
   {
     "nation": "USA",
     "testname": "PROJECT 56-Number 3",
-    "date": "5-Nov-55",
+    "date": "11/05/55",
     "latitude": 37,
     "longitude": -115.95,
     "yield": 0,
@@ -1106,7 +1106,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 18)",
-    "date": "6-Nov-55",
+    "date": "11/06/55",
     "latitude": 50,
     "longitude": 83,
     "yield": 250,
@@ -1118,7 +1118,7 @@
   {
     "nation": "USSR",
     "testname": "(Joe 19)",
-    "date": "22-Nov-55",
+    "date": "11/22/55",
     "latitude": 50,
     "longitude": 78,
     "yield": 1600,
@@ -1130,7 +1130,7 @@
   {
     "nation": "USA",
     "testname": "PROJECT 56-Number 4",
-    "date": "18-Jan-56",
+    "date": "01/18/56",
     "latitude": 37,
     "longitude": -115.95,
     "yield": 0.03,
@@ -1142,7 +1142,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "2-Feb-56",
+    "date": "02/02/56",
     "latitude": 47,
     "longitude": 61,
     "yield": 0.3,
@@ -1154,7 +1154,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "16-Mar-56",
+    "date": "03/16/56",
     "latitude": 50,
     "longitude": 78,
     "yield": 13.2,
@@ -1166,7 +1166,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Mar-56",
+    "date": "03/25/56",
     "latitude": 50,
     "longitude": 78,
     "yield": 5.5,
@@ -1178,7 +1178,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Lacrosse",
-    "date": "4-May-56",
+    "date": "05/04/56",
     "latitude": 11.557,
     "longitude": 162.355,
     "yield": 40,
@@ -1190,7 +1190,7 @@
   {
     "nation": "UK",
     "testname": "MOSAIC G1",
-    "date": "16-May-56",
+    "date": "05/16/56",
     "latitude": -20.23,
     "longitude": 115.55,
     "yield": 15,
@@ -1202,7 +1202,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Cherokee",
-    "date": "20-May-56",
+    "date": "05/20/56",
     "latitude": 11.71,
     "longitude": 165.3,
     "yield": 3800,
@@ -1214,7 +1214,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Zuni",
-    "date": "27-May-56",
+    "date": "05/27/56",
     "latitude": 11.5,
     "longitude": 165.36,
     "yield": 3500,
@@ -1226,7 +1226,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Yuma",
-    "date": "27-May-56",
+    "date": "05/27/56",
     "latitude": 11.622,
     "longitude": 162.32,
     "yield": 0.19,
@@ -1238,7 +1238,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Erie",
-    "date": "30-May-56",
+    "date": "05/30/56",
     "latitude": 11.543,
     "longitude": 162.364,
     "yield": 14.9,
@@ -1250,7 +1250,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Seminole",
-    "date": "6-Jun-56",
+    "date": "06/06/56",
     "latitude": 11.674,
     "longitude": 162.217,
     "yield": 13.7,
@@ -1262,7 +1262,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Flathead",
-    "date": "11-Jun-56",
+    "date": "06/11/56",
     "latitude": 11.68,
     "longitude": 165.39,
     "yield": 365,
@@ -1274,7 +1274,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Blackfoot",
-    "date": "11-Jun-56",
+    "date": "06/11/56",
     "latitude": 11.55,
     "longitude": 162.359,
     "yield": 8.5,
@@ -1286,7 +1286,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Kickapoo",
-    "date": "13-Jun-56",
+    "date": "06/13/56",
     "latitude": 11.626,
     "longitude": 162.325,
     "yield": 1.49,
@@ -1298,7 +1298,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Osage",
-    "date": "16-Jun-56",
+    "date": "06/16/56",
     "latitude": 11.546,
     "longitude": 162.361,
     "yield": 1.7,
@@ -1310,7 +1310,7 @@
   {
     "nation": "UK",
     "testname": "MOSAIC G2",
-    "date": "19-Jun-56",
+    "date": "06/19/56",
     "latitude": -20.4,
     "longitude": 115.53,
     "yield": 98,
@@ -1322,7 +1322,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Inca",
-    "date": "21-Jun-56",
+    "date": "06/21/56",
     "latitude": 11.63,
     "longitude": 162.301,
     "yield": 15.2,
@@ -1334,7 +1334,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Dakota",
-    "date": "25-Jun-56",
+    "date": "06/25/56",
     "latitude": 11.68,
     "longitude": 165.39,
     "yield": 1100,
@@ -1346,7 +1346,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Mohawk",
-    "date": "2-Jul-56",
+    "date": "07/02/56",
     "latitude": 11.626,
     "longitude": 162.313,
     "yield": 360,
@@ -1358,7 +1358,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Apache",
-    "date": "8-Jul-56",
+    "date": "07/08/56",
     "latitude": 11.669,
     "longitude": 162.2,
     "yield": 1850,
@@ -1370,7 +1370,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Navajo",
-    "date": "10-Jul-56",
+    "date": "07/10/56",
     "latitude": 11.68,
     "longitude": 165.39,
     "yield": 4500,
@@ -1382,7 +1382,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Tewa",
-    "date": "20-Jul-56",
+    "date": "07/20/56",
     "latitude": 11.68,
     "longitude": 165.34,
     "yield": 5000,
@@ -1394,7 +1394,7 @@
   {
     "nation": "USA",
     "testname": "REDWING-Huron",
-    "date": "21-Jul-56",
+    "date": "07/21/56",
     "latitude": 11.67,
     "longitude": 162.202,
     "yield": 250,
@@ -1406,7 +1406,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "24-Aug-56",
+    "date": "08/24/56",
     "latitude": 50,
     "longitude": 78,
     "yield": 26.5,
@@ -1418,7 +1418,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "30-Aug-56",
+    "date": "08/30/56",
     "latitude": 50,
     "longitude": 78,
     "yield": 900,
@@ -1430,7 +1430,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "2-Sep-56",
+    "date": "09/02/56",
     "latitude": 50,
     "longitude": 78,
     "yield": 51,
@@ -1442,7 +1442,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Sep-56",
+    "date": "09/10/56",
     "latitude": 50,
     "longitude": 78,
     "yield": 38,
@@ -1454,7 +1454,7 @@
   {
     "nation": "UK",
     "testname": "BUFFALO R1/One Tree",
-    "date": "27-Sep-56",
+    "date": "09/27/56",
     "latitude": -30.2,
     "longitude": 131.4,
     "yield": 15,
@@ -1466,7 +1466,7 @@
   {
     "nation": "UK",
     "testname": "BUFFALO R2/Marcoo",
-    "date": "4-Oct-56",
+    "date": "10/04/56",
     "latitude": -30.2,
     "longitude": 131.4,
     "yield": 1.5,
@@ -1478,7 +1478,7 @@
   {
     "nation": "UK",
     "testname": "BUFFALO R3/Kite",
-    "date": "11-Oct-56",
+    "date": "10/11/56",
     "latitude": -30.2,
     "longitude": 131.4,
     "yield": 3,
@@ -1490,7 +1490,7 @@
   {
     "nation": "UK",
     "testname": "BUFFALO R4/Breakaway",
-    "date": "22-Oct-56",
+    "date": "10/22/56",
     "latitude": -30.2,
     "longitude": 131.4,
     "yield": 10,
@@ -1502,7 +1502,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "17-Nov-56",
+    "date": "11/17/56",
     "latitude": 50,
     "longitude": 78,
     "yield": 900,
@@ -1514,7 +1514,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "14-Dec-56",
+    "date": "12/14/56",
     "latitude": 50,
     "longitude": 78,
     "yield": 40,
@@ -1526,7 +1526,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "19-Jan-57",
+    "date": "01/19/57",
     "latitude": 48,
     "longitude": 44,
     "yield": 10,
@@ -1538,7 +1538,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "8-Mar-57",
+    "date": "03/08/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 19,
@@ -1550,7 +1550,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "3-Apr-57",
+    "date": "04/03/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 42,
@@ -1562,7 +1562,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "6-Apr-57",
+    "date": "04/06/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 57,
@@ -1574,7 +1574,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Apr-57",
+    "date": "04/10/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 680,
@@ -1586,7 +1586,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "12-Apr-57",
+    "date": "04/12/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 22,
@@ -1598,7 +1598,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "16-Apr-57",
+    "date": "04/16/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 320,
@@ -1610,7 +1610,7 @@
   {
     "nation": "USA",
     "testname": "PROJECT 57-Number 1",
-    "date": "24-Apr-57",
+    "date": "04/24/57",
     "latitude": 37.3,
     "longitude": -116,
     "yield": 0,
@@ -1622,7 +1622,7 @@
   {
     "nation": "UK",
     "testname": "GRAPPLE 1/Short Granite",
-    "date": "15-May-57",
+    "date": "05/15/57",
     "latitude": -4,
     "longitude": -155,
     "yield": 300,
@@ -1634,7 +1634,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Boltzmann",
-    "date": "28-May-57",
+    "date": "05/28/57",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 12,
@@ -1646,7 +1646,7 @@
   {
     "nation": "UK",
     "testname": "GRAPPLE 2/Orange Herald",
-    "date": "31-May-57",
+    "date": "05/31/57",
     "latitude": -4,
     "longitude": -155,
     "yield": 720,
@@ -1658,7 +1658,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Franklin",
-    "date": "2-Jun-57",
+    "date": "06/02/57",
     "latitude": 37,
     "longitude": -116,
     "yield": 0.14,
@@ -1670,7 +1670,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Lassen",
-    "date": "5-Jun-57",
+    "date": "06/05/57",
     "latitude": 37,
     "longitude": -116.1,
     "yield": 0.00047,
@@ -1682,7 +1682,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Wilson",
-    "date": "18-Jun-57",
+    "date": "06/18/57",
     "latitude": 37.15,
     "longitude": -116,
     "yield": 10,
@@ -1694,7 +1694,7 @@
   {
     "nation": "UK",
     "testname": "GRAPPLE 3/Purple Granite",
-    "date": "19-Jun-57",
+    "date": "06/19/57",
     "latitude": -4,
     "longitude": -155,
     "yield": 200,
@@ -1706,7 +1706,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Priscilla",
-    "date": "24-Jun-57",
+    "date": "06/24/57",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 37,
@@ -1718,7 +1718,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Coulomb-A",
-    "date": "1-Jul-57",
+    "date": "07/01/57",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 0,
@@ -1730,7 +1730,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Hood",
-    "date": "5-Jul-57",
+    "date": "07/05/57",
     "latitude": 37.15,
     "longitude": -116,
     "yield": 74,
@@ -1742,7 +1742,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Diablo",
-    "date": "15-Jul-57",
+    "date": "07/15/57",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 17,
@@ -1754,7 +1754,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-John",
-    "date": "19-Jul-57",
+    "date": "07/19/57",
     "latitude": 37.2,
     "longitude": -116.05,
     "yield": 1.7,
@@ -1766,7 +1766,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Kepler",
-    "date": "24-Jul-57",
+    "date": "07/24/57",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 10,
@@ -1778,7 +1778,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Owens",
-    "date": "25-Jul-57",
+    "date": "07/25/57",
     "latitude": 37.15,
     "longitude": -116,
     "yield": 9.7,
@@ -1790,7 +1790,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Stokes",
-    "date": "7-Aug-57",
+    "date": "08/07/57",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 19,
@@ -1802,7 +1802,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Shasta",
-    "date": "18-Aug-57",
+    "date": "08/18/57",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 17,
@@ -1814,7 +1814,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Aug-57",
+    "date": "08/22/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 520,
@@ -1826,7 +1826,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Doppler",
-    "date": "23-Aug-57",
+    "date": "08/23/57",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 11,
@@ -1838,7 +1838,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "26-Aug-57",
+    "date": "08/26/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.1,
@@ -1850,7 +1850,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Franklin Prime",
-    "date": "30-Aug-57",
+    "date": "08/30/57",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 4.7,
@@ -1862,7 +1862,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Smoky",
-    "date": "31-Aug-57",
+    "date": "08/31/57",
     "latitude": 37.1872,
     "longitude": -116.0678,
     "yield": 44,
@@ -1874,7 +1874,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Galileo",
-    "date": "2-Sep-57",
+    "date": "09/02/57",
     "latitude": 37,
     "longitude": -116.1,
     "yield": 11,
@@ -1886,7 +1886,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Wheeler",
-    "date": "6-Sep-57",
+    "date": "09/06/57",
     "latitude": 37.15,
     "longitude": -116,
     "yield": 0.197,
@@ -1898,7 +1898,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Coulomb-B",
-    "date": "6-Sep-57",
+    "date": "09/06/57",
     "latitude": 37,
     "longitude": -116,
     "yield": 0.3,
@@ -1910,7 +1910,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "7-Sep-57",
+    "date": "09/07/57",
     "latitude": 70.7,
     "longitude": 54.74,
     "yield": 32,
@@ -1922,7 +1922,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Laplace",
-    "date": "8-Sep-57",
+    "date": "09/08/57",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 1.25,
@@ -1934,7 +1934,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "13-Sep-57",
+    "date": "09/13/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 5.9,
@@ -1946,7 +1946,7 @@
   {
     "nation": "UK",
     "testname": "ANTLER Round 1/Tadje",
-    "date": "14-Sep-57",
+    "date": "09/14/57",
     "latitude": -30.2,
     "longitude": 131.4,
     "yield": 0.93,
@@ -1958,7 +1958,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Fizeau",
-    "date": "14-Sep-57",
+    "date": "09/14/57",
     "latitude": 37,
     "longitude": -116,
     "yield": 11,
@@ -1970,7 +1970,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Newton",
-    "date": "16-Sep-57",
+    "date": "09/16/57",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 12,
@@ -1982,7 +1982,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Whitney",
-    "date": "23-Sep-57",
+    "date": "09/23/57",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 19,
@@ -1994,7 +1994,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "24-Sep-57",
+    "date": "09/24/57",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1600,
@@ -2006,7 +2006,7 @@
   {
     "nation": "UK",
     "testname": "ANTLER Round 2/Biak",
-    "date": "25-Sep-57",
+    "date": "09/25/57",
     "latitude": -30.2,
     "longitude": 131.4,
     "yield": 6,
@@ -2018,7 +2018,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "26-Sep-57",
+    "date": "09/26/57",
     "latitude": 50,
     "longitude": 78,
     "yield": 13,
@@ -2030,7 +2030,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Charleston",
-    "date": "28-Sep-57",
+    "date": "09/28/57",
     "latitude": 37.15,
     "longitude": -116,
     "yield": 12,
@@ -2042,7 +2042,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "6-Oct-57",
+    "date": "10/06/57",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 2900,
@@ -2054,7 +2054,7 @@
   {
     "nation": "USA",
     "testname": "PLUMBOB-Morgan",
-    "date": "7-Oct-57",
+    "date": "10/07/57",
     "latitude": 37.15,
     "longitude": -116,
     "yield": 8,
@@ -2066,7 +2066,7 @@
   {
     "nation": "UK",
     "testname": "ANTLER Round 3/Taranaki",
-    "date": "9-Oct-57",
+    "date": "10/09/57",
     "latitude": -30.2,
     "longitude": 131.4,
     "yield": 26.6,
@@ -2078,7 +2078,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Oct-57",
+    "date": "10/10/57",
     "latitude": 70.7,
     "longitude": 54.4,
     "yield": 10,
@@ -2090,7 +2090,7 @@
   {
     "nation": "UK",
     "testname": "Grapple X/Round C",
-    "date": "8-Nov-57",
+    "date": "11/08/57",
     "latitude": 2,
     "longitude": -157,
     "yield": 1800,
@@ -2102,7 +2102,7 @@
   {
     "nation": "USA",
     "testname": "PROJECT 58-Coulomb-C",
-    "date": "9-Dec-57",
+    "date": "12/09/57",
     "latitude": 37,
     "longitude": -116.1,
     "yield": 0.5,
@@ -2114,7 +2114,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Jan-58",
+    "date": "01/04/58",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.3,
@@ -2126,7 +2126,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "17-Jan-58",
+    "date": "01/17/58",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.5,
@@ -2138,7 +2138,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "23-Feb-58",
+    "date": "02/23/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 860,
@@ -2150,7 +2150,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "27-Feb-58",
+    "date": "02/27/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 250,
@@ -2162,7 +2162,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "27-Feb-58",
+    "date": "02/27/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1500,
@@ -2174,7 +2174,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "13-Mar-58",
+    "date": "03/13/58",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.2,
@@ -2186,7 +2186,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "14-Mar-58",
+    "date": "03/14/58",
     "latitude": 50,
     "longitude": 78,
     "yield": 35,
@@ -2198,7 +2198,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "14-Mar-58",
+    "date": "03/14/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 40,
@@ -2210,7 +2210,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "15-Mar-58",
+    "date": "03/15/58",
     "latitude": 50,
     "longitude": 78,
     "yield": 14,
@@ -2222,7 +2222,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Mar-58",
+    "date": "03/18/58",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.16,
@@ -2234,7 +2234,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "20-Mar-58",
+    "date": "03/20/58",
     "latitude": 50,
     "longitude": 78,
     "yield": 12,
@@ -2246,7 +2246,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "21-Mar-58",
+    "date": "03/21/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 650,
@@ -2258,7 +2258,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Mar-58",
+    "date": "03/22/58",
     "latitude": 50,
     "longitude": 78,
     "yield": 18,
@@ -2270,7 +2270,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Yucca",
-    "date": "28-Apr-58",
+    "date": "04/28/58",
     "latitude": 12.62,
     "longitude": 163.02,
     "yield": 1.7,
@@ -2282,7 +2282,7 @@
   {
     "nation": "UK",
     "testname": "Grapple Y",
-    "date": "28-Apr-58",
+    "date": "04/28/58",
     "latitude": 2,
     "longitude": -157,
     "yield": 2000,
@@ -2294,7 +2294,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Cactus",
-    "date": "5-May-58",
+    "date": "05/05/58",
     "latitude": 11.555,
     "longitude": 162.354,
     "yield": 18,
@@ -2306,7 +2306,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Fir",
-    "date": "11-May-58",
+    "date": "05/11/58",
     "latitude": 11.69,
     "longitude": 165.27,
     "yield": 1360,
@@ -2318,7 +2318,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Butternut",
-    "date": "11-May-58",
+    "date": "05/11/58",
     "latitude": 11.485,
     "longitude": 162.351,
     "yield": 81,
@@ -2330,7 +2330,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Koa",
-    "date": "12-May-58",
+    "date": "05/12/58",
     "latitude": 11.673,
     "longitude": 162.206,
     "yield": 1370,
@@ -2342,7 +2342,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Wahoo",
-    "date": "16-May-58",
+    "date": "05/16/58",
     "latitude": 11.3447,
     "longitude": 162.1789,
     "yield": 9,
@@ -2354,7 +2354,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Holly",
-    "date": "20-May-58",
+    "date": "05/20/58",
     "latitude": 11.543,
     "longitude": 162.356,
     "yield": 5.9,
@@ -2366,7 +2366,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Nutmeg",
-    "date": "21-May-58",
+    "date": "05/21/58",
     "latitude": 11.5,
     "longitude": 165.36,
     "yield": 25.1,
@@ -2378,7 +2378,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Yellowwood",
-    "date": "26-May-58",
+    "date": "05/26/58",
     "latitude": 11.658,
     "longitude": 162.225,
     "yield": 330,
@@ -2390,7 +2390,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Magnolia",
-    "date": "26-May-58",
+    "date": "05/26/58",
     "latitude": 11.542,
     "longitude": 162.354,
     "yield": 57,
@@ -2402,7 +2402,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Tobacco",
-    "date": "30-May-58",
+    "date": "05/30/58",
     "latitude": 11.661,
     "longitude": 162.23,
     "yield": 11.6,
@@ -2414,7 +2414,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Sycamore",
-    "date": "31-May-58",
+    "date": "05/31/58",
     "latitude": 11.69,
     "longitude": 165.27,
     "yield": 92,
@@ -2426,7 +2426,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Rose",
-    "date": "2-Jun-58",
+    "date": "06/02/58",
     "latitude": 11.485,
     "longitude": 162.351,
     "yield": 15,
@@ -2438,7 +2438,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Umbrella",
-    "date": "8-Jun-58",
+    "date": "06/08/58",
     "latitude": 11.3808,
     "longitude": 162.2192,
     "yield": 8,
@@ -2450,7 +2450,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Maple",
-    "date": "10-Jun-58",
+    "date": "06/10/58",
     "latitude": 11.69,
     "longitude": 165.41,
     "yield": 213,
@@ -2462,7 +2462,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Aspen",
-    "date": "14-Jun-58",
+    "date": "06/14/58",
     "latitude": 11.69,
     "longitude": 165.27,
     "yield": 319,
@@ -2474,7 +2474,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Walnut",
-    "date": "14-Jun-58",
+    "date": "06/14/58",
     "latitude": 11.658,
     "longitude": 162.225,
     "yield": 1450,
@@ -2486,7 +2486,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Linden",
-    "date": "18-Jun-58",
+    "date": "06/18/58",
     "latitude": 11.543,
     "longitude": 162.356,
     "yield": 11,
@@ -2498,7 +2498,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Redwood",
-    "date": "27-Jun-58",
+    "date": "06/27/58",
     "latitude": 11.69,
     "longitude": 165.41,
     "yield": 412,
@@ -2510,7 +2510,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Elder",
-    "date": "27-Jun-58",
+    "date": "06/27/58",
     "latitude": 11.661,
     "longitude": 162.23,
     "yield": 880,
@@ -2522,7 +2522,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Oak",
-    "date": "28-Jun-58",
+    "date": "06/28/58",
     "latitude": 11.606,
     "longitude": 162.108,
     "yield": 8900,
@@ -2534,7 +2534,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Hickory",
-    "date": "29-Jun-58",
+    "date": "06/29/58",
     "latitude": 11.5,
     "longitude": 165.36,
     "yield": 14,
@@ -2546,7 +2546,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Sequoia",
-    "date": "1-Jul-58",
+    "date": "07/01/58",
     "latitude": 11.543,
     "longitude": 162.356,
     "yield": 5.2,
@@ -2558,7 +2558,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Cedar",
-    "date": "2-Jul-58",
+    "date": "07/02/58",
     "latitude": 11.69,
     "longitude": 165.27,
     "yield": 220,
@@ -2570,7 +2570,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Dogwood",
-    "date": "5-Jul-58",
+    "date": "07/05/58",
     "latitude": 11.661,
     "longitude": 162.23,
     "yield": 397,
@@ -2582,7 +2582,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Poplar",
-    "date": "12-Jul-58",
+    "date": "07/12/58",
     "latitude": 11.69,
     "longitude": 165.27,
     "yield": 9300,
@@ -2594,7 +2594,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Scaevola",
-    "date": "14-Jul-58",
+    "date": "07/14/58",
     "latitude": 11.545,
     "longitude": 162.36,
     "yield": 0,
@@ -2606,7 +2606,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Pisonia",
-    "date": "17-Jul-58",
+    "date": "07/17/58",
     "latitude": 11.547,
     "longitude": 162.327,
     "yield": 255,
@@ -2618,7 +2618,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Juniper",
-    "date": "22-Jul-58",
+    "date": "07/22/58",
     "latitude": 11.5,
     "longitude": 165.36,
     "yield": 65,
@@ -2630,7 +2630,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Olive",
-    "date": "22-Jul-58",
+    "date": "07/22/58",
     "latitude": 11.661,
     "longitude": 162.23,
     "yield": 202,
@@ -2642,7 +2642,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Pine",
-    "date": "26-Jul-58",
+    "date": "07/26/58",
     "latitude": 11.654,
     "longitude": 162.219,
     "yield": 2000,
@@ -2654,7 +2654,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Teak",
-    "date": "1-Aug-58",
+    "date": "08/01/58",
     "latitude": 16.72,
     "longitude": -169.55,
     "yield": 3800,
@@ -2666,7 +2666,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Quince",
-    "date": "6-Aug-58",
+    "date": "08/06/58",
     "latitude": 11.549,
     "longitude": 162.359,
     "yield": 0,
@@ -2678,7 +2678,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Orange",
-    "date": "12-Aug-58",
+    "date": "08/12/58",
     "latitude": 16.35,
     "longitude": -169.55,
     "yield": 3800,
@@ -2690,7 +2690,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK I-Fig",
-    "date": "18-Aug-58",
+    "date": "08/18/58",
     "latitude": 11.549,
     "longitude": 162.359,
     "yield": 0.022,
@@ -2702,7 +2702,7 @@
   {
     "nation": "UK",
     "testname": "GRAPPLE Z-Pennant 2",
-    "date": "22-Aug-58",
+    "date": "08/22/58",
     "latitude": 2,
     "longitude": -157,
     "yield": 35,
@@ -2714,7 +2714,7 @@
   {
     "nation": "USA",
     "testname": "Argus I",
-    "date": "27-Aug-58",
+    "date": "08/27/58",
     "latitude": -38.7,
     "longitude": -11.9,
     "yield": 1.5,
@@ -2726,7 +2726,7 @@
   {
     "nation": "USA",
     "testname": "Argus II",
-    "date": "30-Aug-58",
+    "date": "08/30/58",
     "latitude": -49.4,
     "longitude": -8.7,
     "yield": 1.5,
@@ -2738,7 +2738,7 @@
   {
     "nation": "UK",
     "testname": "GRAPPLE Z-Flagpole 1",
-    "date": "2-Sep-58",
+    "date": "09/02/58",
     "latitude": 2,
     "longitude": -157,
     "yield": 2750,
@@ -2750,7 +2750,7 @@
   {
     "nation": "USA",
     "testname": "Argus III",
-    "date": "6-Sep-58",
+    "date": "09/06/58",
     "latitude": -49.5,
     "longitude": -10.4,
     "yield": 1.5,
@@ -2762,7 +2762,7 @@
   {
     "nation": "UK",
     "testname": "GRAPPLE Z-Halliard 1",
-    "date": "11-Sep-58",
+    "date": "09/11/58",
     "latitude": 2,
     "longitude": -157,
     "yield": 2750,
@@ -2774,7 +2774,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Eddy",
-    "date": "19-Sep-58",
+    "date": "09/19/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0.083,
@@ -2786,7 +2786,7 @@
   {
     "nation": "UK",
     "testname": "GRAPPLE Z-Burgee 2",
-    "date": "23-Sep-58",
+    "date": "09/23/58",
     "latitude": 2,
     "longitude": -157,
     "yield": 35,
@@ -2798,7 +2798,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Mora",
-    "date": "29-Sep-58",
+    "date": "09/29/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 2,
@@ -2810,7 +2810,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "30-Sep-58",
+    "date": "09/30/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1200,
@@ -2822,7 +2822,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "30-Sep-58",
+    "date": "09/30/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 900,
@@ -2834,7 +2834,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "2-Oct-58",
+    "date": "10/02/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 290,
@@ -2846,7 +2846,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "2-Oct-58",
+    "date": "10/02/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 40,
@@ -2858,7 +2858,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Oct-58",
+    "date": "10/04/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 9,
@@ -2870,7 +2870,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "5-Oct-58",
+    "date": "10/05/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 15,
@@ -2882,7 +2882,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Hidalgo",
-    "date": "5-Oct-58",
+    "date": "10/05/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0.0055,
@@ -2894,7 +2894,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "6-Oct-58",
+    "date": "10/06/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 5.5,
@@ -2906,7 +2906,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Oct-58",
+    "date": "10/10/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 68,
@@ -2918,7 +2918,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Quay",
-    "date": "10-Oct-58",
+    "date": "10/10/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0.079,
@@ -2930,7 +2930,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "12-Oct-58",
+    "date": "10/12/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1450,
@@ -2942,7 +2942,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Lea",
-    "date": "13-Oct-58",
+    "date": "10/13/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 1.4,
@@ -2954,7 +2954,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "15-Oct-58",
+    "date": "10/15/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1500,
@@ -2966,7 +2966,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Hamilton",
-    "date": "15-Oct-58",
+    "date": "10/15/58",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 0.0012,
@@ -2978,7 +2978,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Dona Ana",
-    "date": "16-Oct-58",
+    "date": "10/16/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0.037,
@@ -2990,7 +2990,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Vesta",
-    "date": "17-Oct-58",
+    "date": "10/17/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0.024,
@@ -3002,7 +3002,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Oct-58",
+    "date": "10/18/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 2900,
@@ -3014,7 +3014,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Rio Arriba",
-    "date": "18-Oct-58",
+    "date": "10/18/58",
     "latitude": 37,
     "longitude": -116,
     "yield": 0.09,
@@ -3026,7 +3026,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "19-Oct-58",
+    "date": "10/19/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 40,
@@ -3038,7 +3038,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "19-Oct-58",
+    "date": "10/19/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 0.0005,
@@ -3050,7 +3050,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "20-Oct-58",
+    "date": "10/20/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 440,
@@ -3062,7 +3062,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "21-Oct-58",
+    "date": "10/21/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 2,
@@ -3074,7 +3074,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Oct-58",
+    "date": "10/22/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 2800,
@@ -3086,7 +3086,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Socorro",
-    "date": "22-Oct-58",
+    "date": "10/22/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 6,
@@ -3098,7 +3098,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Wrangell",
-    "date": "22-Oct-58",
+    "date": "10/22/58",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 0.115,
@@ -3110,7 +3110,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Oberon",
-    "date": "22-Oct-58",
+    "date": "10/22/58",
     "latitude": 37.2,
     "longitude": -116.1,
     "yield": 0.188,
@@ -3122,7 +3122,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Rushmore",
-    "date": "22-Oct-58",
+    "date": "10/22/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0,
@@ -3134,7 +3134,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "24-Oct-58",
+    "date": "10/24/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1000,
@@ -3146,7 +3146,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Catron",
-    "date": "24-Oct-58",
+    "date": "10/24/58",
     "latitude": 37,
     "longitude": -116,
     "yield": 0.021,
@@ -3158,7 +3158,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Juno",
-    "date": "24-Oct-58",
+    "date": "10/24/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0.0017,
@@ -3170,7 +3170,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Oct-58",
+    "date": "10/25/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 190,
@@ -3182,7 +3182,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Oct-58",
+    "date": "10/25/58",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 0.05,
@@ -3194,7 +3194,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Ceres",
-    "date": "26-Oct-58",
+    "date": "10/26/58",
     "latitude": 37.2,
     "longitude": -116.1,
     "yield": 0.0007,
@@ -3206,7 +3206,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Sanford",
-    "date": "26-Oct-58",
+    "date": "10/26/58",
     "latitude": 36.8,
     "longitude": -115.95,
     "yield": 4.9,
@@ -3218,7 +3218,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-De Baca",
-    "date": "26-Oct-58",
+    "date": "10/26/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 2.2,
@@ -3230,7 +3230,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Chavez",
-    "date": "27-Oct-58",
+    "date": "10/27/58",
     "latitude": 37,
     "longitude": -116,
     "yield": 0.0006,
@@ -3242,7 +3242,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Mazama",
-    "date": "29-Oct-58",
+    "date": "10/29/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 0.0078,
@@ -3254,7 +3254,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Humboldt",
-    "date": "29-Oct-58",
+    "date": "10/29/58",
     "latitude": 37,
     "longitude": -116,
     "yield": 0,
@@ -3266,7 +3266,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Santa Fe",
-    "date": "30-Oct-58",
+    "date": "10/30/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 1.3,
@@ -3278,7 +3278,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Ganymede",
-    "date": "30-Oct-58",
+    "date": "10/30/58",
     "latitude": 37.1,
     "longitude": -116,
     "yield": 22,
@@ -3290,7 +3290,7 @@
   {
     "nation": "USA",
     "testname": "HARDTACK II-Titania",
-    "date": "30-Oct-58",
+    "date": "10/30/58",
     "latitude": 37.2,
     "longitude": -116.1,
     "yield": 0.0002,
@@ -3302,7 +3302,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Nov-58",
+    "date": "11/01/58",
     "latitude": 48,
     "longitude": 44,
     "yield": 10,
@@ -3314,7 +3314,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "3-Nov-58",
+    "date": "11/03/58",
     "latitude": 48,
     "longitude": 44,
     "yield": 10,
@@ -3326,7 +3326,7 @@
   {
     "nation": "France",
     "testname": "Gerboise Bleue",
-    "date": "13-Feb-60",
+    "date": "02/13/60",
     "latitude": 26.317,
     "longitude": -0.067,
     "yield": 65,
@@ -3338,7 +3338,7 @@
   {
     "nation": "France",
     "testname": "Gerboise Blanche",
-    "date": "1-Apr-60",
+    "date": "04/01/60",
     "latitude": 26.06,
     "longitude": -0.09,
     "yield": 15,
@@ -3350,7 +3350,7 @@
   {
     "nation": "France",
     "testname": "Gerboise Rouge",
-    "date": "27-Dec-60",
+    "date": "12/27/60",
     "latitude": 27,
     "longitude": 0,
     "yield": 5,
@@ -3362,7 +3362,7 @@
   {
     "nation": "France",
     "testname": "Gerboise Verte",
-    "date": "25-Apr-61",
+    "date": "04/25/61",
     "latitude": 27,
     "longitude": 0,
     "yield": 0.5,
@@ -3374,7 +3374,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Sep-61",
+    "date": "09/01/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 16,
@@ -3386,7 +3386,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Sep-61",
+    "date": "09/04/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 9,
@@ -3398,7 +3398,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "5-Sep-61",
+    "date": "09/05/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 16,
@@ -3410,7 +3410,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "6-Sep-61",
+    "date": "09/06/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.1,
@@ -3422,7 +3422,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "6-Sep-61",
+    "date": "09/06/61",
     "latitude": 48.45,
     "longitude": 44.3,
     "yield": 16,
@@ -3434,7 +3434,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "9-Sep-61",
+    "date": "09/09/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.38,
@@ -3446,7 +3446,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Sep-61",
+    "date": "09/10/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 2700,
@@ -3458,7 +3458,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Sep-61",
+    "date": "09/10/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 12,
@@ -3470,7 +3470,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Sep-61",
+    "date": "09/10/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.88,
@@ -3482,7 +3482,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "11-Sep-61",
+    "date": "09/11/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.3,
@@ -3494,7 +3494,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "12-Sep-61",
+    "date": "09/12/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1150,
@@ -3506,7 +3506,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "13-Sep-61",
+    "date": "09/13/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 6,
@@ -3518,7 +3518,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "13-Sep-61",
+    "date": "09/13/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 20,
@@ -3530,7 +3530,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "14-Sep-61",
+    "date": "09/14/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.4,
@@ -3542,7 +3542,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "14-Sep-61",
+    "date": "09/14/61",
     "latitude": 74.6,
     "longitude": 51.1,
     "yield": 1200,
@@ -3554,7 +3554,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "16-Sep-61",
+    "date": "09/16/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 830,
@@ -3566,7 +3566,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "17-Sep-61",
+    "date": "09/17/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 60,
@@ -3578,7 +3578,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Sep-61",
+    "date": "09/18/61",
     "latitude": 74,
     "longitude": 52,
     "yield": 1000,
@@ -3590,7 +3590,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Sep-61",
+    "date": "09/18/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.004,
@@ -3602,7 +3602,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Sep-61",
+    "date": "09/18/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.75,
@@ -3614,7 +3614,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "19-Sep-61",
+    "date": "09/19/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.03,
@@ -3626,7 +3626,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "20-Sep-61",
+    "date": "09/20/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 4.8,
@@ -3638,7 +3638,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "20-Sep-61",
+    "date": "09/20/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1000,
@@ -3650,7 +3650,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "21-Sep-61",
+    "date": "09/21/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.8,
@@ -3662,7 +3662,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Sep-61",
+    "date": "09/22/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 260,
@@ -3674,7 +3674,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "26-Sep-61",
+    "date": "09/26/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.2,
@@ -3686,7 +3686,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Oct-61",
+    "date": "10/01/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 3,
@@ -3698,7 +3698,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "2-Oct-61",
+    "date": "10/02/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 250,
@@ -3710,7 +3710,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Oct-61",
+    "date": "10/04/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 13,
@@ -3722,7 +3722,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Oct-61",
+    "date": "10/04/61",
     "latitude": 73.7,
     "longitude": 53.8,
     "yield": 10000,
@@ -3734,7 +3734,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "6-Oct-61",
+    "date": "10/06/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 4000,
@@ -3746,7 +3746,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "6-Oct-61",
+    "date": "10/06/61",
     "latitude": 48,
     "longitude": 44,
     "yield": 40,
@@ -3758,7 +3758,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "8-Oct-61",
+    "date": "10/08/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 15,
@@ -3770,7 +3770,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "12-Oct-61",
+    "date": "10/12/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 15,
@@ -3782,7 +3782,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "17-Oct-61",
+    "date": "10/17/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 6.6,
@@ -3794,7 +3794,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "19-Oct-61",
+    "date": "10/19/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 10,
@@ -3806,7 +3806,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "20-Oct-61",
+    "date": "10/20/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1450,
@@ -3818,7 +3818,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "23-Oct-61",
+    "date": "10/23/61",
     "latitude": 73.9,
     "longitude": 53.8,
     "yield": 12500,
@@ -3830,7 +3830,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "23-Oct-61",
+    "date": "10/23/61",
     "latitude": 70.7,
     "longitude": 53.5,
     "yield": 4.8,
@@ -3842,7 +3842,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Oct-61",
+    "date": "10/25/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 300,
@@ -3854,7 +3854,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Oct-61",
+    "date": "10/25/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.5,
@@ -3866,7 +3866,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "27-Oct-61",
+    "date": "10/27/61",
     "latitude": 70.7,
     "longitude": 53.5,
     "yield": 16,
@@ -3878,7 +3878,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "27-Oct-61",
+    "date": "10/27/61",
     "latitude": 48,
     "longitude": 44,
     "yield": 1.2,
@@ -3890,7 +3890,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "27-Oct-61",
+    "date": "10/27/61",
     "latitude": 48,
     "longitude": 44,
     "yield": 1.2,
@@ -3902,7 +3902,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "30-Oct-61",
+    "date": "10/30/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.09,
@@ -3914,7 +3914,7 @@
   {
     "nation": "USSR",
     "testname": "Tsar Bomba",
-    "date": "30-Oct-61",
+    "date": "10/30/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 58000,
@@ -3926,7 +3926,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "31-Oct-61",
+    "date": "10/31/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 5000,
@@ -3938,7 +3938,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "31-Oct-61",
+    "date": "10/31/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1000,
@@ -3950,7 +3950,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Nov-61",
+    "date": "11/01/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 2.7,
@@ -3962,7 +3962,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "2-Nov-61",
+    "date": "11/02/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 120,
@@ -3974,7 +3974,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "2-Nov-61",
+    "date": "11/02/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 280,
@@ -3986,7 +3986,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "2-Nov-61",
+    "date": "11/02/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.6,
@@ -3998,7 +3998,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "3-Nov-61",
+    "date": "11/03/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.0005,
@@ -4010,7 +4010,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "3-Nov-61",
+    "date": "11/03/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.9,
@@ -4022,7 +4022,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Nov-61",
+    "date": "11/04/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 15,
@@ -4034,7 +4034,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Nov-61",
+    "date": "11/04/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1000,
@@ -4046,7 +4046,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Nov-61",
+    "date": "11/04/61",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 6,
@@ -4058,7 +4058,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Nov-61",
+    "date": "11/04/61",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.15,
@@ -4070,7 +4070,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Adobe",
-    "date": "25-Apr-62",
+    "date": "04/25/62",
     "latitude": 1.6,
     "longitude": -157.4,
     "yield": 190,
@@ -4082,7 +4082,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Aztec",
-    "date": "27-Apr-62",
+    "date": "04/27/62",
     "latitude": 1.6,
     "longitude": -157.3,
     "yield": 410,
@@ -4094,7 +4094,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Arkansas",
-    "date": "2-May-62",
+    "date": "05/02/62",
     "latitude": 1.7,
     "longitude": -157.2,
     "yield": 1090,
@@ -4106,7 +4106,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Questa",
-    "date": "4-May-62",
+    "date": "05/04/62",
     "latitude": 1.5,
     "longitude": -157.3,
     "yield": 670,
@@ -4118,7 +4118,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Frigate Bird",
-    "date": "6-May-62",
+    "date": "05/06/62",
     "latitude": 4.83,
     "longitude": -149.42,
     "yield": 600,
@@ -4130,7 +4130,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Yukon",
-    "date": "8-May-62",
+    "date": "05/08/62",
     "latitude": 1.6,
     "longitude": -157.3,
     "yield": 100,
@@ -4142,7 +4142,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Mesilla",
-    "date": "9-May-62",
+    "date": "05/09/62",
     "latitude": 1.6,
     "longitude": -157.3,
     "yield": 100,
@@ -4154,7 +4154,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Muskegon",
-    "date": "11-May-62",
+    "date": "05/11/62",
     "latitude": 1.6,
     "longitude": -157.3,
     "yield": 50,
@@ -4166,7 +4166,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Swordfish",
-    "date": "11-May-62",
+    "date": "05/11/62",
     "latitude": 31.245,
     "longitude": 124.212,
     "yield": 1,
@@ -4178,7 +4178,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Encino",
-    "date": "12-May-62",
+    "date": "05/12/62",
     "latitude": 2,
     "longitude": -157,
     "yield": 500,
@@ -4190,7 +4190,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Swanee",
-    "date": "14-May-62",
+    "date": "05/14/62",
     "latitude": 1.6,
     "longitude": -157.3,
     "yield": 97,
@@ -4202,7 +4202,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Chetco",
-    "date": "19-May-62",
+    "date": "05/19/62",
     "latitude": 1.6,
     "longitude": -157.3,
     "yield": 73,
@@ -4214,7 +4214,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Tanana",
-    "date": "25-May-62",
+    "date": "05/25/62",
     "latitude": 2,
     "longitude": -157,
     "yield": 2.6,
@@ -4226,7 +4226,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Nambe",
-    "date": "27-May-62",
+    "date": "05/27/62",
     "latitude": 1.6,
     "longitude": -157.3,
     "yield": 43,
@@ -4238,7 +4238,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Alma",
-    "date": "8-Jun-62",
+    "date": "06/08/62",
     "latitude": 1.5,
     "longitude": -157.3,
     "yield": 782,
@@ -4250,7 +4250,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Truckee",
-    "date": "9-Jun-62",
+    "date": "06/09/62",
     "latitude": 1.6,
     "longitude": -157.3,
     "yield": 210,
@@ -4262,7 +4262,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Yeso",
-    "date": "10-Jun-62",
+    "date": "06/10/62",
     "latitude": 1.5,
     "longitude": -157.3,
     "yield": 3000,
@@ -4274,7 +4274,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Harlem",
-    "date": "12-Jun-62",
+    "date": "06/12/62",
     "latitude": 1.5,
     "longitude": -157.3,
     "yield": 1200,
@@ -4286,7 +4286,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Rinconada",
-    "date": "15-Jun-62",
+    "date": "06/15/62",
     "latitude": 1.5,
     "longitude": -157.3,
     "yield": 800,
@@ -4298,7 +4298,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Dulce",
-    "date": "17-Jun-62",
+    "date": "06/17/62",
     "latitude": 1.5,
     "longitude": -157.3,
     "yield": 52,
@@ -4310,7 +4310,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Petit",
-    "date": "19-Jun-62",
+    "date": "06/19/62",
     "latitude": 1.5,
     "longitude": -157.3,
     "yield": 2.2,
@@ -4322,7 +4322,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Otowi",
-    "date": "22-Jun-62",
+    "date": "06/22/62",
     "latitude": 1.6,
     "longitude": -157.3,
     "yield": 81.5,
@@ -4334,7 +4334,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Bighorn",
-    "date": "27-Jun-62",
+    "date": "06/27/62",
     "latitude": 1.3,
     "longitude": -157.3,
     "yield": 7650,
@@ -4346,7 +4346,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC I-Bluestone",
-    "date": "30-Jun-62",
+    "date": "06/30/62",
     "latitude": 1.5,
     "longitude": -157.3,
     "yield": 1270,
@@ -4358,7 +4358,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Little Feller II",
-    "date": "7-Jul-62",
+    "date": "07/07/62",
     "latitude": 37.1,
     "longitude": -116.1,
     "yield": 0.022,
@@ -4370,7 +4370,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Starfish Prime",
-    "date": "9-Jul-62",
+    "date": "07/09/62",
     "latitude": 17.2,
     "longitude": -169.1,
     "yield": 1400,
@@ -4382,7 +4382,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Sunset",
-    "date": "10-Jul-62",
+    "date": "07/10/62",
     "latitude": 1.5,
     "longitude": -157.3,
     "yield": 1000,
@@ -4394,7 +4394,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Pamlico",
-    "date": "11-Jul-62",
+    "date": "07/11/62",
     "latitude": 1.4,
     "longitude": -157.3,
     "yield": 3880,
@@ -4406,7 +4406,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Johnnie Boy",
-    "date": "11-Jul-62",
+    "date": "07/11/62",
     "latitude": 37.12244,
     "longitude": -116.33303,
     "yield": 0.5,
@@ -4418,7 +4418,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Small Boy",
-    "date": "14-Jul-62",
+    "date": "07/14/62",
     "latitude": 37,
     "longitude": -116.1,
     "yield": 1.65,
@@ -4430,7 +4430,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Little Feller I",
-    "date": "17-Jul-62",
+    "date": "07/17/62",
     "latitude": 37.1,
     "longitude": -116.4,
     "yield": 0.018,
@@ -4442,7 +4442,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Aug-62",
+    "date": "08/01/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 2.4,
@@ -4454,7 +4454,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "3-Aug-62",
+    "date": "08/03/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.6,
@@ -4466,7 +4466,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Aug-62",
+    "date": "08/04/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 3.8,
@@ -4478,7 +4478,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "5-Aug-62",
+    "date": "08/05/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 21100,
@@ -4490,7 +4490,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "7-Aug-62",
+    "date": "08/07/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 9.9,
@@ -4502,7 +4502,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Aug-62",
+    "date": "08/10/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1000,
@@ -4514,7 +4514,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Aug-62",
+    "date": "08/18/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 7.4,
@@ -4526,7 +4526,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Aug-62",
+    "date": "08/18/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 5.8,
@@ -4538,7 +4538,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "20-Aug-62",
+    "date": "08/20/62",
     "latitude": 74.3,
     "longitude": 51.5,
     "yield": 2800,
@@ -4550,7 +4550,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "21-Aug-62",
+    "date": "08/21/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 100,
@@ -4562,7 +4562,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Aug-62",
+    "date": "08/22/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1600,
@@ -4574,7 +4574,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Aug-62",
+    "date": "08/22/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 6,
@@ -4586,7 +4586,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Aug-62",
+    "date": "08/22/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 3,
@@ -4598,7 +4598,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "23-Aug-62",
+    "date": "08/23/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 2.5,
@@ -4610,7 +4610,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Aug-62",
+    "date": "08/25/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 20,
@@ -4622,7 +4622,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Aug-62",
+    "date": "08/25/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 10000,
@@ -4634,7 +4634,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "27-Aug-62",
+    "date": "08/27/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 4200,
@@ -4646,7 +4646,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "27-Aug-62",
+    "date": "08/27/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 11,
@@ -4658,7 +4658,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "31-Aug-62",
+    "date": "08/31/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 2.7,
@@ -4670,7 +4670,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "2-Sep-62",
+    "date": "09/02/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 80,
@@ -4682,7 +4682,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "8-Sep-62",
+    "date": "09/08/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 1900,
@@ -4694,7 +4694,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "15-Sep-62",
+    "date": "09/15/62",
     "latitude": 74.4,
     "longitude": 51.5,
     "yield": 3100,
@@ -4706,7 +4706,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "16-Sep-62",
+    "date": "09/16/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 3250,
@@ -4718,7 +4718,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Sep-62",
+    "date": "09/18/62",
     "latitude": 73.2,
     "longitude": 54.7,
     "yield": 1350,
@@ -4730,7 +4730,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "19-Sep-62",
+    "date": "09/19/62",
     "latitude": 73.8,
     "longitude": 53.8,
     "yield": 20000,
@@ -4742,7 +4742,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "21-Sep-62",
+    "date": "09/21/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 2400,
@@ -4754,7 +4754,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Sep-62",
+    "date": "09/22/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.21,
@@ -4766,7 +4766,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "24-Sep-62",
+    "date": "09/24/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.2,
@@ -4778,7 +4778,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Sep-62",
+    "date": "09/25/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 7,
@@ -4790,7 +4790,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Sep-62",
+    "date": "09/25/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 19100,
@@ -4802,7 +4802,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "27-Sep-62",
+    "date": "09/27/62",
     "latitude": 74.3,
     "longitude": 52.4,
     "yield": 20000,
@@ -4814,7 +4814,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "28-Sep-62",
+    "date": "09/28/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.3,
@@ -4826,7 +4826,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Androscoggin",
-    "date": "2-Oct-62",
+    "date": "10/02/62",
     "latitude": 14,
     "longitude": -172,
     "yield": 75,
@@ -4838,7 +4838,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Bumping",
-    "date": "6-Oct-62",
+    "date": "10/06/62",
     "latitude": 14.5,
     "longitude": -168.5,
     "yield": 11.3,
@@ -4850,7 +4850,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "7-Oct-62",
+    "date": "10/07/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 320,
@@ -4862,7 +4862,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "9-Oct-62",
+    "date": "10/09/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 8,
@@ -4874,7 +4874,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "9-Oct-62",
+    "date": "10/09/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 15,
@@ -4886,7 +4886,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "10-Oct-62",
+    "date": "10/10/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 9.2,
@@ -4898,7 +4898,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "13-Oct-62",
+    "date": "10/13/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 4.9,
@@ -4910,7 +4910,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "14-Oct-62",
+    "date": "10/14/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 20,
@@ -4922,7 +4922,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Chama",
-    "date": "18-Oct-62",
+    "date": "10/18/62",
     "latitude": 14.5,
     "longitude": -169,
     "yield": 1590,
@@ -4934,7 +4934,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Checkmate",
-    "date": "20-Oct-62",
+    "date": "10/20/62",
     "latitude": 16,
     "longitude": -169.5,
     "yield": 6,
@@ -4946,7 +4946,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "20-Oct-62",
+    "date": "10/20/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 6.7,
@@ -4958,7 +4958,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Oct-62",
+    "date": "10/22/62",
     "latitude": 48,
     "longitude": 64,
     "yield": 300,
@@ -4970,7 +4970,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Oct-62",
+    "date": "10/22/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 8200,
@@ -4982,7 +4982,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Bluegill Triple Prime",
-    "date": "26-Oct-62",
+    "date": "10/26/62",
     "latitude": 16.9,
     "longitude": -169.2,
     "yield": 300,
@@ -4994,7 +4994,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "27-Oct-62",
+    "date": "10/27/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 260,
@@ -5006,7 +5006,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Calamity",
-    "date": "27-Oct-62",
+    "date": "10/27/62",
     "latitude": 14.5,
     "longitude": -168.5,
     "yield": 800,
@@ -5018,7 +5018,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "28-Oct-62",
+    "date": "10/28/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 7.8,
@@ -5030,7 +5030,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "28-Oct-62",
+    "date": "10/28/62",
     "latitude": 48,
     "longitude": 44,
     "yield": 300,
@@ -5042,7 +5042,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "28-Oct-62",
+    "date": "10/28/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 7.8,
@@ -5054,7 +5054,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "29-Oct-62",
+    "date": "10/29/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 360,
@@ -5066,7 +5066,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "30-Oct-62",
+    "date": "10/30/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 1.2,
@@ -5078,7 +5078,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "30-Oct-62",
+    "date": "10/30/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 280,
@@ -5090,7 +5090,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Housatonic",
-    "date": "30-Oct-62",
+    "date": "10/30/62",
     "latitude": 13.5,
     "longitude": -172,
     "yield": 8300,
@@ -5102,7 +5102,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "31-Oct-62",
+    "date": "10/31/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 10,
@@ -5114,7 +5114,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Nov-62",
+    "date": "11/01/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 3,
@@ -5126,7 +5126,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Nov-62",
+    "date": "11/01/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 240,
@@ -5138,7 +5138,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Nov-62",
+    "date": "11/01/62",
     "latitude": 48,
     "longitude": 44,
     "yield": 300,
@@ -5150,7 +5150,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Kingfish",
-    "date": "1-Nov-62",
+    "date": "11/01/62",
     "latitude": 16.6,
     "longitude": -169.4,
     "yield": 300,
@@ -5162,7 +5162,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "3-Nov-62",
+    "date": "11/03/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 390,
@@ -5174,7 +5174,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "3-Nov-62",
+    "date": "11/03/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 45,
@@ -5186,7 +5186,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "3-Nov-62",
+    "date": "11/03/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 4.7,
@@ -5198,7 +5198,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "4-Nov-62",
+    "date": "11/04/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 8.4,
@@ -5210,7 +5210,7 @@
   {
     "nation": "USA",
     "testname": "DOMINIC II-Tightrope",
-    "date": "4-Nov-62",
+    "date": "11/04/62",
     "latitude": 17.1,
     "longitude": -169.1,
     "yield": 6,
@@ -5222,7 +5222,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "5-Nov-62",
+    "date": "11/05/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.4,
@@ -5234,7 +5234,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "11-Nov-62",
+    "date": "11/11/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.1,
@@ -5246,7 +5246,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "13-Nov-62",
+    "date": "11/13/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.0005,
@@ -5258,7 +5258,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "14-Nov-62",
+    "date": "11/14/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 12,
@@ -5270,7 +5270,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "17-Nov-62",
+    "date": "11/17/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 18,
@@ -5282,7 +5282,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "24-Nov-62",
+    "date": "11/24/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.0005,
@@ -5294,7 +5294,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "26-Nov-62",
+    "date": "11/26/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.031,
@@ -5306,7 +5306,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "1-Dec-62",
+    "date": "12/01/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 2.4,
@@ -5318,7 +5318,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Dec-62",
+    "date": "12/18/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 110,
@@ -5330,7 +5330,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "18-Dec-62",
+    "date": "12/18/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 69,
@@ -5342,7 +5342,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "20-Dec-62",
+    "date": "12/20/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 8.3,
@@ -5354,7 +5354,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "22-Dec-62",
+    "date": "12/22/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 6.3,
@@ -5366,7 +5366,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "23-Dec-62",
+    "date": "12/23/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 430,
@@ -5378,7 +5378,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "23-Dec-62",
+    "date": "12/23/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 8.3,
@@ -5390,7 +5390,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "23-Dec-62",
+    "date": "12/23/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 2.4,
@@ -5402,7 +5402,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "23-Dec-62",
+    "date": "12/23/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.0005,
@@ -5414,7 +5414,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "24-Dec-62",
+    "date": "12/24/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.007,
@@ -5426,7 +5426,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "24-Dec-62",
+    "date": "12/24/62",
     "latitude": 50,
     "longitude": 78,
     "yield": 0.028,
@@ -5438,7 +5438,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "24-Dec-62",
+    "date": "12/24/62",
     "latitude": 74.2,
     "longitude": 52.3,
     "yield": 1100,
@@ -5450,7 +5450,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "24-Dec-62",
+    "date": "12/24/62",
     "latitude": 73.6,
     "longitude": 57.5,
     "yield": 24200,
@@ -5462,7 +5462,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Dec-62",
+    "date": "12/25/62",
     "latitude": 73.4,
     "longitude": 56.5,
     "yield": 3100,
@@ -5474,7 +5474,7 @@
   {
     "nation": "USSR",
     "testname": "",
-    "date": "25-Dec-62",
+    "date": "12/25/62",
     "latitude": 73.8,
     "longitude": 55,
     "yield": 8.5,
@@ -5486,7 +5486,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "16-Oct-64",
+    "date": "10/16/64",
     "latitude": 41.35,
     "longitude": 88.3,
     "yield": 22,
@@ -5498,7 +5498,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "14-May-65",
+    "date": "05/14/65",
     "latitude": 41,
     "longitude": 89,
     "yield": 35,
@@ -5510,7 +5510,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "9-May-66",
+    "date": "05/09/66",
     "latitude": 41,
     "longitude": 89,
     "yield": 250,
@@ -5522,7 +5522,7 @@
   {
     "nation": "France",
     "testname": "Aldebaran",
-    "date": "2-Jul-66",
+    "date": "07/02/66",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 28,
@@ -5534,7 +5534,7 @@
   {
     "nation": "France",
     "testname": "Tamoure",
-    "date": "19-Jul-66",
+    "date": "07/19/66",
     "latitude": -23,
     "longitude": -139,
     "yield": 75,
@@ -5546,7 +5546,7 @@
   {
     "nation": "France",
     "testname": "Ganymede X",
-    "date": "21-Jul-66",
+    "date": "07/21/66",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 0,
@@ -5558,7 +5558,7 @@
   {
     "nation": "France",
     "testname": "Betelgeuse",
-    "date": "11-Sep-66",
+    "date": "09/11/66",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 120,
@@ -5570,7 +5570,7 @@
   {
     "nation": "France",
     "testname": "Rigel",
-    "date": "24-Sep-66",
+    "date": "09/24/66",
     "latitude": -22.2,
     "longitude": -138.7,
     "yield": 150,
@@ -5582,7 +5582,7 @@
   {
     "nation": "France",
     "testname": "Sirius",
-    "date": "4-Oct-66",
+    "date": "10/04/66",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 300,
@@ -5594,7 +5594,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "27-Oct-66",
+    "date": "10/27/66",
     "latitude": 41,
     "longitude": 89,
     "yield": 12,
@@ -5606,7 +5606,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "28-Dec-66",
+    "date": "12/28/66",
     "latitude": 41,
     "longitude": 89,
     "yield": 122,
@@ -5618,7 +5618,7 @@
   {
     "nation": "France",
     "testname": "Altair",
-    "date": "5-Jun-67",
+    "date": "06/05/67",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5630,7 +5630,7 @@
   {
     "nation": "France",
     "testname": "Antares",
-    "date": "27-Jun-67",
+    "date": "06/27/67",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5642,7 +5642,7 @@
   {
     "nation": "France",
     "testname": "Arcturus",
-    "date": "2-Jul-67",
+    "date": "07/02/67",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5654,7 +5654,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "17-Jun-67",
+    "date": "06/17/67",
     "latitude": 40.744,
     "longitude": 89.775,
     "yield": 3300,
@@ -5666,7 +5666,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "24-Dec-67",
+    "date": "12/24/67",
     "latitude": 41,
     "longitude": 89,
     "yield": 20,
@@ -5678,7 +5678,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "7-Jul-68",
+    "date": "07/07/68",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5690,7 +5690,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "15-Jul-68",
+    "date": "07/15/68",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 500,
@@ -5702,7 +5702,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "3-Aug-68",
+    "date": "08/03/68",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 500,
@@ -5714,7 +5714,7 @@
   {
     "nation": "France",
     "testname": "Canopus",
-    "date": "24-Aug-68",
+    "date": "08/24/68",
     "latitude": -22.25,
     "longitude": -138.75,
     "yield": 2600,
@@ -5726,7 +5726,7 @@
   {
     "nation": "France",
     "testname": "Procyon",
-    "date": "8-Sep-68",
+    "date": "09/08/68",
     "latitude": -21.78,
     "longitude": -139.16,
     "yield": 1200,
@@ -5738,7 +5738,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "27-Dec-68",
+    "date": "12/27/68",
     "latitude": 41,
     "longitude": 89,
     "yield": 3000,
@@ -5750,7 +5750,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "29-Sep-69",
+    "date": "09/29/69",
     "latitude": 40.722,
     "longitude": 89.515,
     "yield": 3000,
@@ -5762,7 +5762,7 @@
   {
     "nation": "France",
     "testname": "Andromede",
-    "date": "15-May-70",
+    "date": "05/15/70",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5774,7 +5774,7 @@
   {
     "nation": "France",
     "testname": "Cassiopee",
-    "date": "22-May-70",
+    "date": "05/22/70",
     "latitude": -22.2,
     "longitude": -138.7,
     "yield": "",
@@ -5786,7 +5786,7 @@
   {
     "nation": "France",
     "testname": "Dragon",
-    "date": "30-May-70",
+    "date": "05/30/70",
     "latitude": -22.24,
     "longitude": -138.79,
     "yield": 1000,
@@ -5798,7 +5798,7 @@
   {
     "nation": "France",
     "testname": "Eridan",
-    "date": "24-Jun-70",
+    "date": "06/24/70",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5810,7 +5810,7 @@
   {
     "nation": "France",
     "testname": "Licorne",
-    "date": "3-Jul-70",
+    "date": "07/03/70",
     "latitude": -21.8,
     "longitude": -139.2,
     "yield": 1000,
@@ -5822,7 +5822,7 @@
   {
     "nation": "France",
     "testname": "Pegase",
-    "date": "27-Jul-70",
+    "date": "07/27/70",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5834,7 +5834,7 @@
   {
     "nation": "France",
     "testname": "Orion",
-    "date": "2-Aug-70",
+    "date": "08/02/70",
     "latitude": -22.2,
     "longitude": -138.7,
     "yield": "",
@@ -5846,7 +5846,7 @@
   {
     "nation": "France",
     "testname": "Toucan",
-    "date": "6-Aug-70",
+    "date": "08/06/70",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5858,7 +5858,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "14-Oct-70",
+    "date": "10/14/70",
     "latitude": 40.52,
     "longitude": 89.779,
     "yield": 3400,
@@ -5870,7 +5870,7 @@
   {
     "nation": "France",
     "testname": "Dione",
-    "date": "5-Jun-71",
+    "date": "06/05/71",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 15,
@@ -5882,7 +5882,7 @@
   {
     "nation": "France",
     "testname": "Encelade",
-    "date": "12-Jun-71",
+    "date": "06/12/71",
     "latitude": -23.8,
     "longitude": -137.2,
     "yield": 475,
@@ -5894,7 +5894,7 @@
   {
     "nation": "France",
     "testname": "Japet",
-    "date": "4-Jul-71",
+    "date": "07/04/71",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5906,7 +5906,7 @@
   {
     "nation": "France",
     "testname": "Phoebe",
-    "date": "8-Aug-71",
+    "date": "08/08/71",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5918,7 +5918,7 @@
   {
     "nation": "France",
     "testname": "Rhea",
-    "date": "14-Aug-71",
+    "date": "08/14/71",
     "latitude": -21.88,
     "longitude": -138.95,
     "yield": 1000,
@@ -5930,7 +5930,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "18-Nov-71",
+    "date": "11/18/71",
     "latitude": 41,
     "longitude": 89,
     "yield": 15,
@@ -5942,7 +5942,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "7-Jan-72",
+    "date": "01/07/72",
     "latitude": 41,
     "longitude": 89,
     "yield": 8,
@@ -5954,7 +5954,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "18-Mar-72",
+    "date": "03/18/72",
     "latitude": 41,
     "longitude": 89,
     "yield": 170,
@@ -5966,7 +5966,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "25-Jun-72",
+    "date": "06/25/72",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5978,7 +5978,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "30-Jun-72",
+    "date": "06/30/72",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -5990,7 +5990,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "29-Jul-72",
+    "date": "07/29/72",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -6002,7 +6002,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "21-Jul-73",
+    "date": "07/21/73",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 5.5,
@@ -6014,7 +6014,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "27-Jun-73",
+    "date": "06/27/73",
     "latitude": 40.7985,
     "longitude": 89.8091,
     "yield": 2500,
@@ -6026,7 +6026,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "28-Jul-73",
+    "date": "07/28/73",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 2,
@@ -6038,7 +6038,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "19-Aug-73",
+    "date": "08/19/73",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 7,
@@ -6050,7 +6050,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "25-Aug-73",
+    "date": "08/25/73",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -6062,7 +6062,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "27-Aug-73",
+    "date": "08/27/73",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 6.6,
@@ -6074,7 +6074,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": 73,
+    "date": "03/13/00",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 0,
@@ -6086,7 +6086,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": 74,
+    "date": "03/14/00",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 0,
@@ -6098,7 +6098,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "16-Jun-74",
+    "date": "06/16/74",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 10,
@@ -6110,7 +6110,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "17-Jun-74",
+    "date": "06/17/74",
     "latitude": 40.518,
     "longitude": 89.619,
     "yield": 1000,
@@ -6122,7 +6122,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "7-Jul-74",
+    "date": "07/07/74",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 150,
@@ -6134,7 +6134,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "17-Jul-74",
+    "date": "07/17/74",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -6146,7 +6146,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "26-Jul-74",
+    "date": "07/26/74",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 0,
@@ -6158,7 +6158,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "29-Jul-74",
+    "date": "07/29/74",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -6170,7 +6170,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "15-Aug-74",
+    "date": "08/15/74",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -6182,7 +6182,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "25-Aug-74",
+    "date": "08/25/74",
     "latitude": -21.8,
     "longitude": -139,
     "yield": "",
@@ -6194,7 +6194,7 @@
   {
     "nation": "France",
     "testname": "",
-    "date": "15-Sep-74",
+    "date": "09/15/74",
     "latitude": -21.8,
     "longitude": -139,
     "yield": 1000,
@@ -6206,7 +6206,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "23-Jan-76",
+    "date": "01/23/76",
     "latitude": 41,
     "longitude": 89,
     "yield": 5,
@@ -6218,7 +6218,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "26-Sep-76",
+    "date": "09/26/76",
     "latitude": 41,
     "longitude": 89,
     "yield": 200,
@@ -6230,7 +6230,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "17-Nov-76",
+    "date": "11/17/76",
     "latitude": 40.696,
     "longitude": 89.627,
     "yield": 4000,
@@ -6242,7 +6242,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "17-Sep-77",
+    "date": "09/17/77",
     "latitude": 41.5,
     "longitude": 89,
     "yield": 5,
@@ -6254,7 +6254,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "15-Mar-78",
+    "date": "03/15/78",
     "latitude": 41.5,
     "longitude": 89,
     "yield": 10,
@@ -6266,7 +6266,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "14-Dec-78",
+    "date": "12/14/78",
     "latitude": 41.5,
     "longitude": 89,
     "yield": 5,
@@ -6278,7 +6278,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "13-Sep-79",
+    "date": "09/13/79",
     "latitude": 41,
     "longitude": 89,
     "yield": "",
@@ -6290,7 +6290,7 @@
   {
     "nation": "RSA",
     "testname": "",
-    "date": "22-Sep-79",
+    "date": "09/22/79",
     "latitude": -46.6,
     "longitude": 38,
     "yield": 3,
@@ -6302,7 +6302,7 @@
   {
     "nation": "PRC",
     "testname": "",
-    "date": "16-Oct-80",
+    "date": "10/16/80",
     "latitude": 40.719,
     "longitude": 89.651,
     "yield": 450,
