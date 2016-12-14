@@ -62,10 +62,8 @@
         var req = new XMLHttpRequest();
         req.onreadystatechange = function() {
           if (url === '/nuclearInvData') {
-            console.log(url);
             handleInvRes(req);
           } else if (url === '/nuclearTestData'){
-            console.log(url);
             handleTestRes(req);
           }
         }
