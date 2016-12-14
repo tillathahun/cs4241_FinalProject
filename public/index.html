@@ -10,7 +10,6 @@
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="https://d3js.org/topojson.v2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
     <!-- End Added by Ian -->
 
     <!--Bootstrap-->
@@ -407,7 +406,13 @@
             .attr("x", function(d) { return x(d.Year); })
             .attr("y", function(d) { return y(d.InventorySize); })
             .attr("width", x.bandwidth())
-            .attr("height", function(d) { return height - y(d.InventorySize); });
+            .attr("height", function(d) { return height - y(d.InventorySize); })
+            .on("mousemove", function(d) {
+              var xPosition = d3.mouse(this)[0] - 15;
+              var yPosition = d3.mouse(this)[1] - 25;
+              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+              tooltip.select("text").text(d.InventorySize);
+            });
           }
 
 
