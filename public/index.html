@@ -144,6 +144,8 @@
 
 
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        svgElement.setAttribute('width',1300);
+        svgElement.setAttribute('height',500);
         var svgNS = svgElement.namespaceURI;
         var rect = document.createElementNS(svgNS,'rect');
             rect.setAttribute('width',1300);
