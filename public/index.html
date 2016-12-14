@@ -134,9 +134,11 @@
             .attr("width", x.bandwidth())
             .attr("height", function(d) { return height - y(d.InventorySize); });
 
-        var xAxis = d3.svg.axis()
+
+        console.log(svg)
+        var xAxis = svg.axis()
           .scale(x);
-          
+
         svg.append("g")
             .attr("class", "axis axis--x")
             .attr("transform", "translate(0," + height + ")")
