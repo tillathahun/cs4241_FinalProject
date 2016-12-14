@@ -400,13 +400,13 @@
         g.selectAll(".bar")
           .data(countryData)
           .enter().append("rect")
+            .on('mouseover', tip.show)
+            .on('mouseout', tip.hide)
             .attr("class", "bar")
             .attr("x", function(d) { return x(d.Year); })
             .attr("y", function(d) { return y(d.InventorySize); })
             .attr("width", x.bandwidth())
             .attr("height", function(d) { return height - y(d.InventorySize); });
-            .on('mouseover', tip.show)
-            .on('mouseout', tip.hide)
           }
 
 
