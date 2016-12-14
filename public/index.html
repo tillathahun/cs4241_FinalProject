@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!-- Start Added by Ian -->
     <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="http://underscorejs.org/underscore-min.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="https://d3js.org/topojson.v2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -22,7 +22,9 @@
         
       <div class="image">
         <div> <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Trinity_Test_Fireball_16ms.jpg" class="eventImage"></div>
-        <div class="titleText">Cold War Nuclear Arms Race<br><small><em>A Visualization</small></div>
+        <div class="page-header">
+           <div class="titleText">Cold War Nuclear Arms Race<br><small><em>A Visualization</small></div>
+        </div>
         <div class="coldWarDetails">
           The Cold War was a dangerous time for all of humanity. By the year 1961, it was estimated that there were enough bombs in existence to destroy the world. These data visualizations will show you just how much firepower each country possesed.
         </div>
@@ -76,6 +78,183 @@
          font-size: 64px;
          color: white;
       }
+
+         /*==========  Non-Mobile First Method  ==========*/
+
+        /* Large Devices, Wide Screens */
+        @media only screen and (max-width : 1450px) {
+          .coldWarDetails {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 26px;
+            color: white;
+            position: absolute; 
+            top: 785px; 
+            left: 0; 
+            width: 100%; 
+            text-align: left;
+          }
+
+          .titleText { 
+             position: absolute; 
+             top: 15px; 
+             left: 0; 
+             width: 100%; 
+             font-family: 'Rubik Mono One', sans-serif;
+             font-size: 52px;
+             color: white;
+          }
+
+        }
+
+         /* Medium Devices, Desktops */
+        @media only screen and (max-width : 1350px) {
+          .coldWarDetails {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 22px;
+            color: white;
+            position: absolute; 
+            top: 725px; 
+            left: 0; 
+            width: 100%; 
+            text-align: left;
+          }
+
+        }
+
+        @media only screen and (max-width : 1230px) {
+          .coldWarDetails {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 22px;
+            color: white;
+            position: absolute; 
+            top: 665px; 
+            left: 0; 
+            width: 100%; 
+            text-align: left;
+          }
+
+        }
+
+        /* Medium Devices, Desktops */
+        @media only screen and (max-width : 1185px) {
+          .titleText { 
+             position: absolute; 
+             top: 15px; 
+             left: 0; 
+             width: 100%; 
+             font-family: 'Rubik Mono One', sans-serif;
+             font-size: 42px;
+             color: white;
+          }
+
+          .coldWarDetails {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 18px;
+            color: white;
+            position: absolute; 
+            top: 625px; 
+            left: 0; 
+            width: 100%; 
+            text-align: left;
+          }
+
+        }
+
+        @media only screen and (max-width : 1056px) {
+          .coldWarDetails {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 16px;
+            color: white;
+            position: absolute; 
+            top: 580px; 
+            left: 0; 
+            width: 100%; 
+            text-align: left;
+          }
+        }
+
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 980px) {
+          .coldWarDetails {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 16px;
+            color: white;
+            position: absolute; 
+            top: 510px; 
+            left: 0; 
+            width: 100%; 
+            text-align: left;
+          }
+        }
+
+
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 950px) {
+          .titleText { 
+             position: absolute; 
+             top: 15px; 
+             left: 0; 
+             width: 100%; 
+             font-family: 'Rubik Mono One', sans-serif;
+             font-size: 36px;
+             color: white;
+          }
+        }
+
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 880px) {
+          .titleText { 
+             position: absolute; 
+             top: 15px; 
+             left: 0; 
+             width: 100%; 
+             font-family: 'Rubik Mono One', sans-serif;
+             font-size: 32px;
+             color: white;
+          }
+
+          .coldWarDetails {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 14px;
+            color: white;
+            position: absolute; 
+            top: 460px; 
+            left: 0; 
+            width: 100%; 
+            text-align: left;
+          }
+        }
+
+
+
+        /* Extra Small Devices, Phones */ 
+        @media only screen and (max-width : 480px) {
+          .titleText { 
+             position: absolute; 
+             top: 5px; 
+             left: 0; 
+             width: 100%; 
+             font-family: 'Rubik Mono One', sans-serif;
+             font-size: 24px;
+             color: white;
+          }
+
+          .coldWarDetails {
+            font-family: 'Work Sans', sans-serif;
+            font-size: 12px;
+            color: white;
+            position: absolute; 
+            top: 320px; 
+            left: 0; 
+            width: 100%; 
+            text-align: left;
+          }
+        }
+
+        /* Custom, iPhone Retina */ 
+        @media only screen and (max-width : 320px) {
+            
+        }
     </style>
 
     <script type="text/javascript">
