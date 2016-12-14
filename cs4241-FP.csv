@@ -1,4 +1,4 @@
-nation,test name,date (GMT),latitude,longitude,yield (kt),time (GMT),HOB (m),test-type,site
+nation,testname,date,latitude,longitude,yield,time,altitude,testtype,site
 USA,Trinity,16-Jul-45,33.6 N,106.5 W,19.3,1229:45:00,30,AT,NM
 USA,Little Boy,5-Aug-45,34.3914 N,132.4581 E,15,2316:02:00,580,AD,JP
 USA,Fat Man,9-Aug-45,32.77017 N,129.86567 E,21,202,503,AD,JP
