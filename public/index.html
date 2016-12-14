@@ -119,20 +119,20 @@
             .attr("class", "axis axis--y")
             .call(d3.axisLeft(y).ticks(10))
           .append("text")
-            .attr("transform", "rotate(0)")
+            .attr("transform", "rotate(-90)")
             .attr("y", 6)
             .attr("dy", "0.71em")
             .attr("text-anchor", "end")
             .text("Frequency");
 
         g.selectAll(".bar")
-          .data(countryData)
+          .countryData(countryData)
           .enter().append("rect")
             .attr("class", "bar")
             .attr("x", function(d) { return x(d.Year); })
             .attr("y", function(d) { return y(d.InventorySize); })
             .attr("width", x.bandwidth())
-            .attr("height", function(d) { return height - y(d.frequency); });
+            .attr("height", function(d) { return height - y(d.InventorySize); });
       }
 
 
