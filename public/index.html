@@ -62,8 +62,8 @@
           console.log(nuclearInvData);
           partitionedNukeInv = _.values(_.groupBy(nuclearInvData, "Country"));
           drawEachGraph(partitionedNukeInv[0]);
-          _.map(partitionedNukeInv, function doStuff(n) {
-              _.map(n, drawEachGraph(d) {
+          _.map(partitionedNukeInv, doStuff(n) => {
+              _.map(n, drawEachGraph(d) => {
                 drawEachGraph(d);
               });
           });
