@@ -32,8 +32,8 @@
     </body>
     <script type="text/javascript">
       var nuclearInvData = [];
-
-      console.log(nuclearInvData)
+      var partitionedNukeInv = [];
+      var nuclearTestData = [];
 
       var compiled = _.template(
         "<div class='countries'>" +
@@ -44,42 +44,65 @@
       );
 
           // Fancy thing.
-      if( localStorage && localStorage.getItem('nuclearInvData') ) {
+      if( false && localStorage && localStorage.getItem('nuclearInvData') ) {
       console.log('loading from local');
       buildList( JSON.parse(localStorage.getItem('nuclearInvData')) )
-      loadDataIntoGlobals( JSON.parse(localStorage.getItem('nuclearInvData')) )
+      loadDataIntoGlobals('/nuclearInvData', JSON.parse(localStorage.getItem('nuclearInvData')) )
+      loadDataIntoGlobals('/nuclearTests', JSON.parse(localStorage.getItem('nuclearTests')) )
       } else {
-      console.log('loading from server');
-      getJSON('/worldNuclearInventory');
+        console.log('loading from server');
+        getJSON('/worldNuclearInventory');
+        getJSON('/nuclearTests');
       }
 
-      function loadDataIntoGlobals (jsonObj){
-        // jsonObj.forEach( function(element) {
-        //   nuclearInvData.push(element);
-        // });
-        nuclearInvData = jsonObj;
-        console.log(nuclearInvData)
-        manipulateData(nuclearInvData);
+      function loadDataIntoGlobals (datasetName, jsonObj){
+        if( datasetName === '/nuclearInvData') {
+          nuclearInvData = jsonObj;
+          console.log('-----------nuclearInvData-------------');
+          console.log(nuclearInvData);
+          partitionedNukeInv = _.values(_.groupBy(nuclearInvData, "Country"));
+          _.map(partitionedNukeInv, drawEachGraph());
+        } else if (datasetName === '/nuclearTests'){
+          console.log('-----------nuclearTestData-------------');
+          console.log(nuclearTestData);
+          nuclearTestData = jsonObj;
+        }
       }
 
       function getJSON(url) {
-      var req = new XMLHttpRequest();
-      req.onreadystatechange = function() {
-        handleRes(req);
+        var req = new XMLHttpRequest();
+        req.onreadystatechange = function() {
+          if (url === '/worldNuclearInventory') {
+            handleInvRes(req);
+          } else if (url === '/nuclearTests'){
+            handleTestRes(req);
+          }
+        }
+
+        req.open('GET', url);
+        req.send();
       }
 
-      req.open('GET', url);
-      req.send();
+      function handleTestRes(req) {
+        if( req.readyState !== XMLHttpRequest.DONE )
+        return;
+
+        if(req.status === 200) {
+          nuclearTestData = JSON.parse(req.responseText);
+          loadDataIntoGlobals('/nuclearTestData', JSON.parse(localStorage.getItem('nuclearTestData')) )
+          localStorage.setItem('/nuclearTestData', req.responseText);
+        }
       }
 
-      function handleRes(req) {
+      function handleInvRes(req) {
         if( req.readyState !== XMLHttpRequest.DONE )
         return;
 
         if(req.status === 200) {
           nuclearInvData = JSON.parse(req.responseText);
-          loadDataIntoGlobals( JSON.parse(req.responseText) )
-          localStorage.setItem('nuclearInvData', req.responseText);
+          loadDataIntoGlobals('/nuclearInvData', JSON.parse(localStorage.getItem('nuclearInvData')) )
+          localStorage.setItem('/nuclearInvData', req.responseText);
+
           buildList( nuclearInvData )
         }
       }
@@ -99,13 +122,6 @@
       //--------------------------------------------------------------------------------------------------------------------------------------------------------
                       //  D3 Section Below
       //--------------------------------------------------------------------------------------------------------------------------------------------------------
-
-      var partitionedNukeInv = [];
-      function manipulateData (data) {
-        partitionedNukeInv = _.values(_.groupBy(data, "Country"));
-        console.log(partitionedNukeInv);
-        drawEachGraph (partitionedNukeInv[0])
-      }
 
       function drawEachGraph (countryData) {
         var svg = d3.select("svg"),
@@ -144,23 +160,7 @@
             .attr("y", function(d) { return y(d.InventorySize); })
             .attr("width", x.bandwidth())
             .attr("height", function(d) { return height - y(d.InventorySize); });
-
-
-        console.log(svg)
-        var xAxis = svg.axis()
-          .scale(x);
-
-        svg.append("g")
-            .attr("class", "axis axis--x")
-            .attr("transform", "translate(0," + height + ")")
-          .call(xAxis)
-            .selectAll("text")
-            .attr("y", 0)
-            .attr("x", 9)
-            .attr("dy", ".35em")
-            .attr("transform", "rotate(90)")
-            .style("text-anchor", "start");
-      }
+          }
 
 
     </script>
