@@ -338,7 +338,7 @@
         var svgElement = document.createElementNS(containerDiv.namespaceURI, "svg");
         svgElement.setAttribute('width',1300);
         svgElement.setAttribute('height',500);
-        containerDiv.(svgElement);
+        containerDiv.appendChild(svgElement);
 
         var svgNS = svgElement.namespaceURI;
         var rect = document.createElementNS(svgNS,'rect');
@@ -348,10 +348,6 @@
         svgElement.appendChild(rect);
 
         document.body.appendChild(containerDiv);
-
-        var h = document.createElement('p');
-        var t = h.innerHTML='Hello World';
-        document.body.appendChild(h);
 
 
         var svg = d3.select(svgElement),
