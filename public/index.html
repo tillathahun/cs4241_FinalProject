@@ -139,8 +139,8 @@
         rect.setAttribute('width',500);
         rect.setAttribute('height',500);
         rect.setAttribute('fill','#95B3D7');
-        svg.appendChild(rect);
-        document.body.appendChild(svgElement);
+        svgElement.appendChild(rect);
+        document.querySelector("#countries").appendChild(svgElement);
 
         var svg = d3.select(svgElement),
         //var svg = d3.select(countryData[0].Country),
