@@ -374,6 +374,15 @@
         x.domain(countryData.map(function(d) { return d.Year; }));
         y.domain([0, d3.max(countryData, function(d) { return d.InventorySize; })]);
 
+        var tip = d3.tip()
+          .attr('class', 'd3-tip')
+          .offset([-10, 0])
+          .html(function(d) {
+            return "<strong>Inventory Size:</strong> <span style='color:red'>" + d.InventorySize + "</span>";
+          })
+
+        svg.call(tip);
+
         g.append("g")
             .attr("class", "axis axis--x")
             .attr("transform", "translate(0," + height + ")")
@@ -396,6 +405,8 @@
             .attr("y", function(d) { return y(d.InventorySize); })
             .attr("width", x.bandwidth())
             .attr("height", function(d) { return height - y(d.InventorySize); });
+            .on('mouseover', tip.show)
+            .on('mouseout', tip.hide)
           }
 
 
