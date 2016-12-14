@@ -131,9 +131,16 @@
         console.log("drawEachGraph");
         console.log(countryData);
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-        svgElement.width = "90%";
-        svgElement.height = 400;
-        document.getElementsByTagName("body")[0].appendChild(svgElement);
+        var svgNS = svgElement.namespaceURI;
+
+        var rect = document.createElementNS(svgNS,'rect');
+        rect.setAttribute('x',5);
+        rect.setAttribute('y',5);
+        rect.setAttribute('width',500);
+        rect.setAttribute('height',500);
+        rect.setAttribute('fill','#95B3D7');
+        svg.appendChild(rect);
+        document.body.appendChild(svgElement);
 
         var svg = d3.select(svgElement),
         //var svg = d3.select(countryData[0].Country),
@@ -146,7 +153,6 @@
         var g = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        console.log('manipulate data');
         x.domain(countryData.map(function(d) { return d.Year; }));
         y.domain([0, d3.max(countryData, function(d) { return d.InventorySize; })]);
 
