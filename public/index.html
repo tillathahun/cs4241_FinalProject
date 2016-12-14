@@ -40,9 +40,9 @@
       loadDataIntoGlobals('/nuclearInvData', JSON.parse(localStorage.getItem('nuclearInvData')) )
       loadDataIntoGlobals('/nuclearTests', JSON.parse(localStorage.getItem('nuclearTests')) )
       } else {
-      console.log('loading from server');
-      getJSON('/worldNuclearInventory');
-      getJSON('/nuclearTests');
+        console.log('loading from server');
+        getJSON('/worldNuclearInventory');
+        getJSON('/nuclearTests');
       }
 
       function loadDataIntoGlobals (datasetName, jsonObj){
@@ -61,9 +61,9 @@
       function getJSON(url) {
         var req = new XMLHttpRequest();
         req.onreadystatechange = function() {
-          if (url === '/nuclearInvData') {
+          if (url === '/worldNuclearInventory') {
             handleInvRes(req);
-          } else if (url === '/nuclearTestData'){
+          } else if (url === '/nuclearTests'){
             handleTestRes(req);
           }
         }
