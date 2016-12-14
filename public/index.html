@@ -34,7 +34,7 @@
       );
 
           // Fancy thing.
-      if( localStorage && localStorage.getItem('nuclearInvData') ) {
+      if( false && localStorage && localStorage.getItem('nuclearInvData') ) {
       console.log('loading from local');
       buildList( JSON.parse(localStorage.getItem('nuclearInvData')) )
       loadDataIntoGlobals('/nuclearInvData', JSON.parse(localStorage.getItem('nuclearInvData')) )
