@@ -107,7 +107,7 @@
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
         console.log('manipulate data');
-        x.domain(data.map(function(d) { return d.Year; }));
+        x.domain(countryData.map(function(d) { return d.Year; }));
         y.domain([0, d3.max(countryData, function(d) { return d.InventorySize; })]);
 
         g.append("g")
@@ -126,11 +126,11 @@
             .text("Frequency");
 
         g.selectAll(".bar")
-          .data(data)
+          .data(countryData)
           .enter().append("rect")
             .attr("class", "bar")
-            .attr("x", function(d) { return x(d.letter); })
-            .attr("y", function(d) { return y(d.frequency); })
+            .attr("x", function(d) { return x(d.Year); })
+            .attr("y", function(d) { return y(d.InventorySize); })
             .attr("width", x.bandwidth())
             .attr("height", function(d) { return height - y(d.frequency); });
       }
