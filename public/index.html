@@ -335,7 +335,7 @@
         var containerDiv = document.createElementNS("http://www.w3.org/1999/xhtml","div");
           containerDiv.setAttribute("class", "graphContainer");
 
-        var svgElement = document.createElementNS(containerDiv.namespaceURI, "svg");
+        var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         svgElement.setAttribute('width',1300);
         svgElement.setAttribute('height',500);
         containerDiv.appendChild(svgElement);
