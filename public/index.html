@@ -59,28 +59,29 @@
       }
 
       function getJSON(url) {
-      var req = new XMLHttpRequest();
-      req.onreadystatechange = function() {
-        if (url === '/nuclearInvData') {
-          console.log(url)
-          handleInvRes(req);
-        } else if (url === '/nuclearTestData'){
-          console.log(url)
-          handleTestRes(req);
+        var req = new XMLHttpRequest();
+        req.onreadystatechange = function() {
+          if (url === '/nuclearInvData') {
+            console.log(url);
+            handleInvRes(req);
+          } else if (url === '/nuclearTestData'){
+            console.log(url);
+            handleTestRes(req);
+          }
         }
-      }
 
-      req.open('GET', url);
-      req.send();
+        req.open('GET', url);
+        req.send();
       }
 
       function handleTestRes(req) {
         if( req.readyState !== XMLHttpRequest.DONE )
         return;
+
         if(req.status === 200) {
           nuclearTestData = JSON.parse(req.responseText);
-          loadDataIntoGlobals('/nuclearTests', JSON.parse(localStorage.getItem('nuclearTests')) )
-          localStorage.setItem('/nuclearTests', req.responseText);
+          loadDataIntoGlobals('/nuclearTestData', JSON.parse(localStorage.getItem('nuclearTestData')) )
+          localStorage.setItem('/nuclearTestData', req.responseText);
           console.log('-----------nuclearTestData-------------');
           console.log(nuclearTestData);
         }
@@ -93,7 +94,7 @@
         if(req.status === 200) {
           nuclearInvData = JSON.parse(req.responseText);
           loadDataIntoGlobals('/nuclearInvData', JSON.parse(localStorage.getItem('nuclearInvData')) )
-          localStorage.setItem('nuclearInvData', req.responseText);
+          localStorage.setItem('/nuclearInvData', req.responseText);
           console.log('-----------nuclearInvData-------------');
           console.log(nuclearInvData);
           buildList( nuclearInvData )
