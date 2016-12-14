@@ -63,10 +63,7 @@
           partitionedNukeInv = _.values(_.groupBy(nuclearInvData, "Country"));
           // drawEachGraph(partitionedNukeInv[0]);
           _.map(partitionedNukeInv, (n) => {
-              _.map(n, (d) => {
-                console.log(d);
-                drawEachGraph(d);
-              });
+                drawEachGraph(n);
           });
         } else if (datasetName === '/nuclearTests'){
           console.log('-----------nuclearTestData-------------');
