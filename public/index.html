@@ -126,7 +126,7 @@
             .text("Frequency");
 
         g.selectAll(".bar")
-          .countryData(countryData)
+          .data(countryData)
           .enter().append("rect")
             .attr("class", "bar")
             .attr("x", function(d) { return x(d.Year); })
