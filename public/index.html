@@ -24,7 +24,7 @@
           <h4>Ian Banatoski, Luke Buquicchio, Tyler Bennett</h2>
         </div>
       </ol>
-      
+
       <svg width="1300" height="500"></svg>
 
       <div id="countries">
@@ -62,7 +62,11 @@
           console.log(nuclearInvData);
           partitionedNukeInv = _.values(_.groupBy(nuclearInvData, "Country"));
           drawEachGraph(partitionedNukeInv[0]);
-          _.map(partitionedNukeInv, drawEachGraph(d));
+          _.map(partitionedNukeInv, function doStuff(n) {
+              _.map(drawEachGraph(d) {
+                drawEachGraph(d);
+              });
+          });
         } else if (datasetName === '/nuclearTests'){
           console.log('-----------nuclearTestData-------------');
           console.log(nuclearTestData);
