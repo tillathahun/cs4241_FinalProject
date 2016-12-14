@@ -135,7 +135,7 @@
             .attr("height", function(d) { return height - y(d.InventorySize); });
 
         svg.append("g")
-            .attr("class", "x axis")
+            .attr("class", "axis axis--x")
             .attr("transform", "translate(0," + height + ")")
           .call(xAxis)
             .selectAll("text")
