@@ -60,11 +60,12 @@
 
       function getJSON(url) {
       var req = new XMLHttpRequest();
-      console.log(url)
       req.onreadystatechange = function() {
         if (url === '/nuclearInvData') {
+          console.log(url)
           handleInvRes(req);
         } else if (url === '/nuclearTestData'){
+          console.log(url)
           handleTestRes(req);
         }
       }
