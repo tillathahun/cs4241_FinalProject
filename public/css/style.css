@@ -10,11 +10,3 @@
 .axis--x path {
   display: none;
 }
-
-.graphContainer {
-  display: flex;
-  height: 600px;
-  width: 1500px;
-  background-color: 'red';
-  margin-top: 20px;
-}
