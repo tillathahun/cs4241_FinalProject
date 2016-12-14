@@ -18,6 +18,208 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Rubik+Mono+One|Work+Sans:900" rel="stylesheet">
 
   </head>
+  <style>
+        .graphContainer {
+          display: flex;
+          height: 600px;
+          width: 95vw;
+          margin: 10px 2.5%;
+          background-color: #C2C2C2;
+          border-radius: 10px;
+          justify-content: center;
+          align-items: center;
+        }
+        .eventImage {
+          width: 100%;
+          height: auto;
+        }
+        .svgContainer {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .coldWarDetails {
+          font-family: 'Work Sans', sans-serif;
+          font-size: 30px;
+          color: white;
+          position: absolute;
+          top: 845px;
+          left: 0;
+          width: 100%;
+          text-align: left;
+        }
+        h1, h4 {
+          font-family: 'Lato', sans-serif;
+          color: white;
+        }
+        .image {
+           position: relative;
+           width: 100%; /* for IE 6 */
+        }
+        .titleText {
+           position: absolute;
+           top: 15px;
+           left: 0;
+           width: 100%;
+           font-family: 'Rubik Mono One', sans-serif;
+           font-size: 64px;
+           color: white;
+        }
+           /*==========  Non-Mobile First Method  ==========*/
+          /* Large Devices, Wide Screens */
+          @media only screen and (max-width : 1450px) {
+            .coldWarDetails {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 26px;
+              color: white;
+              position: absolute;
+              top: 785px;
+              left: 0;
+              width: 100%;
+              text-align: left;
+            }
+            .titleText {
+               position: absolute;
+               top: 15px;
+               left: 0;
+               width: 100%;
+               font-family: 'Rubik Mono One', sans-serif;
+               font-size: 52px;
+               color: white;
+            }
+          }
+           /* Medium Devices, Desktops */
+          @media only screen and (max-width : 1350px) {
+            .coldWarDetails {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 22px;
+              color: white;
+              position: absolute;
+              top: 725px;
+              left: 0;
+              width: 100%;
+              text-align: left;
+            }
+          }
+          @media only screen and (max-width : 1230px) {
+            .coldWarDetails {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 22px;
+              color: white;
+              position: absolute;
+              top: 665px;
+              left: 0;
+              width: 100%;
+              text-align: left;
+            }
+          }
+          /* Medium Devices, Desktops */
+          @media only screen and (max-width : 1185px) {
+            .titleText {
+               position: absolute;
+               top: 15px;
+               left: 0;
+               width: 100%;
+               font-family: 'Rubik Mono One', sans-serif;
+               font-size: 42px;
+               color: white;
+            }
+            .coldWarDetails {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 18px;
+              color: white;
+              position: absolute;
+              top: 625px;
+              left: 0;
+              width: 100%;
+              text-align: left;
+            }
+          }
+          @media only screen and (max-width : 1056px) {
+            .coldWarDetails {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              color: white;
+              position: absolute;
+              top: 580px;
+              left: 0;
+              width: 100%;
+              text-align: left;
+            }
+          }
+          /* Small Devices, Tablets */
+          @media only screen and (max-width : 980px) {
+            .coldWarDetails {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 16px;
+              color: white;
+              position: absolute;
+              top: 510px;
+              left: 0;
+              width: 100%;
+              text-align: left;
+            }
+          }
+          /* Small Devices, Tablets */
+          @media only screen and (max-width : 950px) {
+            .titleText {
+               position: absolute;
+               top: 15px;
+               left: 0;
+               width: 100%;
+               font-family: 'Rubik Mono One', sans-serif;
+               font-size: 36px;
+               color: white;
+            }
+          }
+          /* Small Devices, Tablets */
+          @media only screen and (max-width : 880px) {
+            .titleText {
+               position: absolute;
+               top: 15px;
+               left: 0;
+               width: 100%;
+               font-family: 'Rubik Mono One', sans-serif;
+               font-size: 32px;
+               color: white;
+            }
+            .coldWarDetails {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 14px;
+              color: white;
+              position: absolute;
+              top: 460px;
+              left: 0;
+              width: 100%;
+              text-align: left;
+            }
+          }
+          /* Extra Small Devices, Phones */
+          @media only screen and (max-width : 480px) {
+            .titleText {
+               position: absolute;
+               top: 5px;
+               left: 0;
+               width: 100%;
+               font-family: 'Rubik Mono One', sans-serif;
+               font-size: 24px;
+               color: white;
+            }
+            .coldWarDetails {
+              font-family: 'Work Sans', sans-serif;
+              font-size: 12px;
+              color: white;
+              position: absolute;
+              top: 320px;
+              left: 0;
+              width: 100%;
+              text-align: left;
+            }
+          }
+          /* Custom, iPhone Retina */
+          @media only screen and (max-width : 320px) {
+          }
+      </style>
     <body>
 
       <div class="image">
@@ -39,224 +241,6 @@
       <div id="countries">
       </div>
     </body>
-    <style>
-      .eventImage {
-        width: 100%;
-        height: auto;
-      }
-      .svgContainer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .coldWarDetails {
-        font-family: 'Work Sans', sans-serif;
-        font-size: 30px;
-        color: white;
-        position: absolute;
-        top: 845px;
-        left: 0;
-        width: 100%;
-        text-align: left;
-      }
-      h1, h4 {
-        font-family: 'Lato', sans-serif;
-        color: white;
-      }
-
-      .image {
-         position: relative;
-         width: 100%; /* for IE 6 */
-      }
-
-      .titleText {
-         position: absolute;
-         top: 15px;
-         left: 0;
-         width: 100%;
-         font-family: 'Rubik Mono One', sans-serif;
-         font-size: 64px;
-         color: white;
-      }
-
-         /*==========  Non-Mobile First Method  ==========*/
-
-        /* Large Devices, Wide Screens */
-        @media only screen and (max-width : 1450px) {
-          .coldWarDetails {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 26px;
-            color: white;
-            position: absolute;
-            top: 785px;
-            left: 0;
-            width: 100%;
-            text-align: left;
-          }
-
-          .titleText {
-             position: absolute;
-             top: 15px;
-             left: 0;
-             width: 100%;
-             font-family: 'Rubik Mono One', sans-serif;
-             font-size: 52px;
-             color: white;
-          }
-
-        }
-
-         /* Medium Devices, Desktops */
-        @media only screen and (max-width : 1350px) {
-          .coldWarDetails {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 22px;
-            color: white;
-            position: absolute;
-            top: 725px;
-            left: 0;
-            width: 100%;
-            text-align: left;
-          }
-
-        }
-
-        @media only screen and (max-width : 1230px) {
-          .coldWarDetails {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 22px;
-            color: white;
-            position: absolute;
-            top: 665px;
-            left: 0;
-            width: 100%;
-            text-align: left;
-          }
-
-        }
-
-        /* Medium Devices, Desktops */
-        @media only screen and (max-width : 1185px) {
-          .titleText {
-             position: absolute;
-             top: 15px;
-             left: 0;
-             width: 100%;
-             font-family: 'Rubik Mono One', sans-serif;
-             font-size: 42px;
-             color: white;
-          }
-
-          .coldWarDetails {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 18px;
-            color: white;
-            position: absolute;
-            top: 625px;
-            left: 0;
-            width: 100%;
-            text-align: left;
-          }
-
-        }
-
-        @media only screen and (max-width : 1056px) {
-          .coldWarDetails {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 16px;
-            color: white;
-            position: absolute;
-            top: 580px;
-            left: 0;
-            width: 100%;
-            text-align: left;
-          }
-        }
-
-        /* Small Devices, Tablets */
-        @media only screen and (max-width : 980px) {
-          .coldWarDetails {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 16px;
-            color: white;
-            position: absolute;
-            top: 510px;
-            left: 0;
-            width: 100%;
-            text-align: left;
-          }
-        }
-
-
-        /* Small Devices, Tablets */
-        @media only screen and (max-width : 950px) {
-          .titleText {
-             position: absolute;
-             top: 15px;
-             left: 0;
-             width: 100%;
-             font-family: 'Rubik Mono One', sans-serif;
-             font-size: 36px;
-             color: white;
-          }
-        }
-
-        /* Small Devices, Tablets */
-        @media only screen and (max-width : 880px) {
-          .titleText {
-             position: absolute;
-             top: 15px;
-             left: 0;
-             width: 100%;
-             font-family: 'Rubik Mono One', sans-serif;
-             font-size: 32px;
-             color: white;
-          }
-
-          .coldWarDetails {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 14px;
-            color: white;
-            position: absolute;
-            top: 460px;
-            left: 0;
-            width: 100%;
-            text-align: left;
-          }
-        }
-
-
-
-        /* Extra Small Devices, Phones */
-        @media only screen and (max-width : 480px) {
-          .titleText {
-             position: absolute;
-             top: 5px;
-             left: 0;
-             width: 100%;
-             font-family: 'Rubik Mono One', sans-serif;
-             font-size: 24px;
-             color: white;
-          }
-
-          .coldWarDetails {
-            font-family: 'Work Sans', sans-serif;
-            font-size: 12px;
-            color: white;
-            position: absolute;
-            top: 320px;
-            left: 0;
-            width: 100%;
-            text-align: left;
-          }
-        }
-
-        /* Custom, iPhone Retina */
-        @media only screen and (max-width : 320px) {
-
-        }
-    </style>
-
     <script type="text/javascript">
       var nuclearInvData = [];
       var partitionedNukeInv = [];
@@ -357,33 +341,23 @@
       function drawEachGraph (countryData) {
         console.log("drawEachGraph");
         console.log(countryData);
-        // var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-        // var svgNS = svgElement.namespaceURI;
-        //
-        // var rect = document.createElementNS(svgNS,'rect');
-        // rect.setAttribute('x',5);
-        // rect.setAttribute('y',5);
-        // rect.setAttribute('width',1300);
-        // rect.setAttribute('height',400);
-        // rect.setAttribute('fill','#95B3D7');
-        // svgElement.appendChild(rect);
-        // document.body.appendChild(svgElement);
 
+        var containerDiv = document.createElementNS("http://www.w3.org/1999/xhtml","div");
+          containerDiv.setAttribute("class", "graphContainer");
 
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         svgElement.setAttribute('width',1300);
         svgElement.setAttribute('height',500);
+        containerDiv.appendChild(svgElement);
+
         var svgNS = svgElement.namespaceURI;
         var rect = document.createElementNS(svgNS,'rect');
             rect.setAttribute('width',1300);
             rect.setAttribute('height',500);
             rect.setAttribute('fill','#EEE');
-            svgElement.appendChild(rect);
-            document.body.appendChild(svgElement);
+        svgElement.appendChild(rect);
 
-        var h = document.createElement('p');
-        var t = h.innerHTML='Hello World';
-        document.body.appendChild(h);
+        document.body.appendChild(containerDiv);
 
 
         var svg = d3.select(svgElement),
