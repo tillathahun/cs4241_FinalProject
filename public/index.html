@@ -334,16 +334,12 @@
 
         var containerDiv = document.createElementNS("http://www.w3.org/1999/xhtml","div");
           containerDiv.setAttribute("class", "graphContainer");
-        var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+
+        var svgElement = document.createElementNS(containerDiv.namespaceURI, "http://www.w3.org/2000/svg", "svg");
         svgElement.setAttribute('width',1300);
         svgElement.setAttribute('height',500);
-        var svgNS = svgElement.namespaceURI;
-        var rect = document.createElementNS(svgNS,'rect');
-            rect.setAttribute('width',1300);
-            rect.setAttribute('height',500);
-            rect.setAttribute('fill','#EEE');
-            svgElement.appendChild(rect);
-            document.body.appendChild(svgElement);
+
+        document.body.appendChild(containerDiv);
 
         var h = document.createElement('p');
         var t = h.innerHTML='Hello World';
