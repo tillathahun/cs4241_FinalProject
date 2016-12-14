@@ -15,21 +15,69 @@
     <!--Bootstrap-->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Rubik+Mono+One|Work+Sans:900" rel="stylesheet">
 
   </head>
     <body>
-      <ol class="breadcrumb">
-        <div class="page-header headerMargin">
-          <h1>Cold War Nuclear Arms Race <small>A Visualization</small></h1>
-          <h4>Ian Banatoski, Luke Buquicchio, Tyler Bennett</h2>
+        
+      <div class="image">
+        <div> <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Trinity_Test_Fireball_16ms.jpg" class="eventImage"></div>
+        <div class="titleText">Cold War Nuclear Arms Race<br><small><em>A Visualization</small></div>
+        <div class="coldWarDetails">
+          The Cold War was a dangerous time for all of humanity. By the year 1961, it was estimated that there were enough bombs in existence to destroy the world. These data visualizations will show you just how much firepower each country possesed.
         </div>
-      </ol>
-      
-      <svg width="1300" height="500"></svg>
+      </div>
+
+
+
+      <div class="svgContainer">
+        <svg width="1300" height="500"></svg>
+      </div>
 
       <div id="countries">
       </div>
     </body>
+    <style>
+      .eventImage {
+        width: 100%;
+        height: auto;
+      }
+      .svgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .coldWarDetails {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 30px;
+        color: white;
+        position: absolute; 
+        top: 845px; 
+        left: 0; 
+        width: 100%; 
+        text-align: left;
+      }
+      h1, h4 {
+        font-family: 'Lato', sans-serif;
+        color: white;
+      }
+
+      .image { 
+         position: relative; 
+         width: 100%; /* for IE 6 */
+      }
+
+      .titleText { 
+         position: absolute; 
+         top: 15px; 
+         left: 0; 
+         width: 100%; 
+         font-family: 'Rubik Mono One', sans-serif;
+         font-size: 64px;
+         color: white;
+      }
+    </style>
+
     <script type="text/javascript">
       var nuclearInvData = [];
       var partitionedNukeInv = [];
@@ -61,7 +109,7 @@
           console.log('-----------nuclearInvData-------------');
           console.log(nuclearInvData);
           partitionedNukeInv = _.values(_.groupBy(nuclearInvData, "Country"));
-          _.map(partitionedNukeInv, drawEachGraph());
+          drawEachGraph(partitionedNukeInv[0]);
         } else if (datasetName === '/nuclearTests'){
           console.log('-----------nuclearTestData-------------');
           console.log(nuclearTestData);
