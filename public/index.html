@@ -130,8 +130,8 @@
       function drawEachGraph (countryData) {
 
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-        svgElement.width = 90%;
-        svgElement.height = 400;
+        svgElement.width = "90%";
+        svgElement.height = "400";
         document.getElementsByTagName("body")[0].appendChild(svgElement);
 
         var svg = d3.select(svgElement),
