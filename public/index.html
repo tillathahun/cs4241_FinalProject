@@ -176,7 +176,8 @@
             .attr("class", "bar")
             .attr("x", function(d) { return x(d.Year); })
             .attr("y", function(d) { return y(d.InventorySize); })
-            .attr("width", x.bandwidth())
+            // .attr("width", x.bandwidth())
+            .attr("width", (x.range()[1] - x.range()[0]) / data.length - 2)
             .attr("height", function(d) { return height - y(d.InventorySize); });
           }
 
