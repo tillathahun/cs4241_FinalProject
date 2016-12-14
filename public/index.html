@@ -331,19 +331,9 @@
       function drawEachGraph (countryData) {
         console.log("drawEachGraph");
         console.log(countryData);
-        // var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-        // var svgNS = svgElement.namespaceURI;
-        //
-        // var rect = document.createElementNS(svgNS,'rect');
-        // rect.setAttribute('x',5);
-        // rect.setAttribute('y',5);
-        // rect.setAttribute('width',1300);
-        // rect.setAttribute('height',400);
-        // rect.setAttribute('fill','#95B3D7');
-        // svgElement.appendChild(rect);
-        // document.body.appendChild(svgElement);
 
-
+        var containerDiv = document.createElementNS("http://www.w3.org/1999/xhtml","div");
+          containerDiv.setAttribute("class", "graphContainer");
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         svgElement.setAttribute('width',1300);
         svgElement.setAttribute('height',500);
