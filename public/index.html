@@ -23,8 +23,6 @@
       var partitionedNukeInv = [];
       var nuclearTestData = [];
 
-      console.log(nuclearInvData)
-
       var compiled = _.template(
         "<div class='countries'>" +
           "<h2><%= Country %></h2>" +
@@ -48,13 +46,14 @@
       function loadDataIntoGlobals (datasetName, jsonObj){
         if( datasetName === '/nuclearInvData') {
           nuclearInvData = jsonObj;
-          console.log(nuclearInvData)
+          console.log('-----------nuclearInvData-------------');
+          console.log(nuclearInvData);
           partitionedNukeInv = _.values(_.groupBy(nuclearInvData, "Country"));
-          console.log(partitionedNukeInv);
-          drawEachGraph (partitionedNukeInv[0])
+          _.map(partitionedNukeInv, drawEachGraph());
         } else if (datasetName === '/nuclearTests'){
+          console.log('-----------nuclearTestData-------------');
+          console.log(nuclearTestData);
           nuclearTestData = jsonObj;
-          console.log(nuclearTestData)
         }
       }
 
@@ -80,8 +79,6 @@
           nuclearTestData = JSON.parse(req.responseText);
           loadDataIntoGlobals('/nuclearTestData', JSON.parse(localStorage.getItem('nuclearTestData')) )
           localStorage.setItem('/nuclearTestData', req.responseText);
-          console.log('-----------nuclearTestData-------------');
-          console.log(nuclearTestData);
         }
       }
 
@@ -93,8 +90,7 @@
           nuclearInvData = JSON.parse(req.responseText);
           loadDataIntoGlobals('/nuclearInvData', JSON.parse(localStorage.getItem('nuclearInvData')) )
           localStorage.setItem('/nuclearInvData', req.responseText);
-          console.log('-----------nuclearInvData-------------');
-          console.log(nuclearInvData);
+
           buildList( nuclearInvData )
         }
       }
