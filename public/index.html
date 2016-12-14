@@ -136,8 +136,8 @@
         var rect = document.createElementNS(svgNS,'rect');
         rect.setAttribute('x',5);
         rect.setAttribute('y',5);
-        rect.setAttribute('width',500);
-        rect.setAttribute('height',500);
+        rect.setAttribute('width',1300);
+        rect.setAttribute('height',400);
         rect.setAttribute('fill','#95B3D7');
         svgElement.appendChild(rect);
         document.querySelector("#countries").appendChild(svgElement);
@@ -176,8 +176,7 @@
             .attr("class", "bar")
             .attr("x", function(d) { return x(d.Year); })
             .attr("y", function(d) { return y(d.InventorySize); })
-            // .attr("width", x.bandwidth())
-            .attr("width", (x.range()[0] - x.range()[1]) / countryData.length - 2)
+            .attr("width", x.bandwidth())
             .attr("height", function(d) { return height - y(d.InventorySize); });
           }
 
