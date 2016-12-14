@@ -129,11 +129,13 @@
 
       function drawEachGraph (countryData) {
 
+        var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        svgElement.width = 90%;
+        svgElement.height = 400;
+        document.getElementsByTagName("body")[0].appendChild(svgElement);
 
-        var newsvg = document.createElementNS("http://www.w3.org/2000/svg", countryData[0].Country);
-
-
-        var svg = d3.select(countryData[0].Country),
+        var svg = d3.select(svgElement),
+        //var svg = d3.select(countryData[0].Country),
         margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = +svg.attr("width") - margin.left - margin.right,
         height = +svg.attr("height") - margin.top - margin.bottom;
