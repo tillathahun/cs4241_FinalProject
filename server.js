@@ -25,7 +25,6 @@ var server = http.createServer (function (req, res) {
       break;
     case '/worldNuclearInventory':
       // Get content from file
-      console.log("hello Im da server");
       sendJSON(res, './public/data/worldNuclearInventory.json');
       break
     case '/nuclearTests':
