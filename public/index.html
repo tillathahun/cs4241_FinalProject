@@ -345,6 +345,13 @@
         var containerDiv = document.createElementNS("http://www.w3.org/1999/xhtml","div");
           containerDiv.setAttribute("class", "graphContainer");
 
+        var countryNameSpan = document.createElement('span');
+          countryNameSpan.innerHTML = countryData[0].Country;
+
+        containerDiv.appendChild(countryNameSpan);
+
+
+
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         svgElement.setAttribute('width',1300);
         svgElement.setAttribute('height',500);
