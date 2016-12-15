@@ -477,6 +477,8 @@
     //  Leaflet Section Below
     //--------------------------------------------------------------------------------------------------------------------------------------------------------
 
+    var summaryDiv = document.createElementNS("http://www.w3.org/1999/xhtml","div");
+
 
     var m = [20, 20, 30, 20],
         w = 960 - m[1] - m[3],
@@ -489,7 +491,7 @@
 
     var color = d3.scale.category10();
 
-    var svg = d3.select("allCountries").append("svg")
+    var svg = d3.select(summaryDiv).append("svg")
         .attr("width", w + m[1] + m[3])
         .attr("height", h + m[0] + m[2])
       .append("g")
