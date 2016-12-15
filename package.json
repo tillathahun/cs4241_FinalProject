@@ -8,6 +8,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "d3": "^4.4.0",
     "jquery": "^3.1.1",
     "jsdom": "^9.8.3"
   },

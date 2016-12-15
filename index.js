@@ -1,3 +1,5 @@
+var d3 = require("d3");
+
 console.log('inside index.js');
 
 
