@@ -157,7 +157,17 @@
         containerCountry.style.fontFamily = "Rubik Mono One,sans-serif";
         containerCountry.style.marginBottom = "10px";
         containerCountry.style.fontSize = "45px";
+        containerCountry.style.textAlign = "center";
 
+        var containerCountrySmall = document.createElementNS("http://www.w3.org/1999/xhtml", "small");
+        //var maxNumNukes = _.maxBy(countryData, function(o) { return o.InventorySize; });
+        var maxNumNukes = _.max(countryData, function (obj) {
+          return obj.InventorySize;
+        });
+        console.log(maxNumNukes);
+        containerCountrySmall.innerHTML += ' (Max Number of Nukes: ' + maxNumNukes.InventorySize + '<br>In Year: ' + maxNumNukes.Year + ')';
+
+        containerCountry.appendChild(containerCountrySmall);
         containerDiv.appendChild(containerCountry);
 
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
