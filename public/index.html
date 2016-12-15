@@ -113,7 +113,7 @@
 
         if(req.status === 200) {
             nuclearTestData = JSON.parse(req.responseText);
-            loadDataIntoGlobals('/nuclearTestData', JSON.parse(localStorage.getItem('nuclearTestData')) )
+            loadDataIntoGlobals('/nuclearTestData', JSON.parse(req.responseText) )
             localStorage.setItem('/nuclearTestData', req.responseText);
             drawCircles();
         }
@@ -126,7 +126,7 @@
         if(req.status === 200) {
             console.log(JSON.parse(req.responseText));
             nuclearInvData = JSON.parse(req.responseText);
-            loadDataIntoGlobals('/nuclearInvData', JSON.parse(localStorage.getItem('nuclearInvData')) )
+            loadDataIntoGlobals('/nuclearInvData', JSON.parse(req.responseText) )
             localStorage.setItem('/nuclearInvData', req.responseText);
 
             //buildList( nuclearInvData )
