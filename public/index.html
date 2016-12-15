@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
 
     <!-- Our own script -->
-    <script src="./index.js"></script>
 
 
     <!--Bootstrap-->
@@ -124,6 +123,7 @@
             return;
 
         if(req.status === 200) {
+            console.log(JSON.parse(req.responseText);
             nuclearInvData = JSON.parse(req.responseText);
             loadDataIntoGlobals('/nuclearInvData', JSON.parse(localStorage.getItem('nuclearInvData')) )
             localStorage.setItem('/nuclearInvData', req.responseText);
