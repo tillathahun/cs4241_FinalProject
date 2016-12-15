@@ -302,7 +302,7 @@
             _.map(partitionedNukeInv, (n) => {
                 drawEachGraph(n);
             });
-            drawShowreel(nuclearInvData);
+            // drawShowreel(nuclearInvData);
         } else if (datasetName === '/nuclearTests'){
             console.log('-----------nuclearTestData-------------');
             console.log(nuclearTestData);
@@ -540,14 +540,6 @@
           .attr("height", height + margin.top + margin.bottom)
         .append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-      // d3.tsv("data.tsv", function(error, data) {
-      //   if (error) throw error;
-      //
-      //   data.forEach(function(d) {
-      //     d.date = parseDate(d.date);
-      //     d.close = +d.close;
-      //   });
 
         x.domain(d3.extent(data, function(d) { return d.Year; }));
         y.domain([0, d3.max(data, function(d) { return d.InventorySize; })]);
