@@ -1,267 +1,4 @@
 ﻿<html lang="en">
-<<<<<<< HEAD
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css"/>
-  <title>Cold War Nuclear Arms Race</title>
-  <meta charset="utf-8">
-  <!-- Start Added by Ian -->
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-  <script src="https://d3js.org/topojson.v2.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <!-- End Added by Ian -->
-
-  <!-- Leaflet -->
-  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
-
-  <!--Bootstrap-->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Rubik+Mono+One|Work+Sans:900" rel="stylesheet">
-
-</head>
-<style>
-  .graphContainer {
-    display: flex;
-    height: 600px;
-    width: 95vw;
-    margin: 10px 2.5%;
-    background-color: #C2C2C2;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
-  }
-  .eventImage {
-    width: 100%;
-    height: auto;
-  }
-  .svgContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .coldWarDetails {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 845px;
-    left: 0;
-    width: 100%;
-    text-align: left;
-  }
-  h1, h4 {
-    font-family: 'Lato', sans-serif;
-    color: white;
-  }
-  .image {
-    position: relative;
-    width: 100%; /* for IE 6 */
-  }
-  .titleText {
-    position: absolute;
-    top: 15px;
-    left: 0;
-    width: 100%;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-size: 64px;
-    color: white;
-  }
-  /*==========  Non-Mobile First Method  ==========*/
-  /* Large Devices, Wide Screens */
-  @media only screen and (max-width : 1450px) {
-    .coldWarDetails {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 26px;
-      color: white;
-      position: absolute;
-      top: 785px;
-      left: 0;
-      width: 100%;
-      text-align: left;
-    }
-    .titleText {
-      position: absolute;
-      top: 15px;
-      left: 0;
-      width: 100%;
-      font-family: 'Rubik Mono One', sans-serif;
-      font-size: 52px;
-      color: white;
-    }
-  }
-  /* Medium Devices, Desktops */
-  @media only screen and (max-width : 1350px) {
-    .coldWarDetails {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 22px;
-      color: white;
-      position: absolute;
-      top: 725px;
-      left: 0;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  @media only screen and (max-width : 1230px) {
-    .coldWarDetails {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 22px;
-      color: white;
-      position: absolute;
-      top: 665px;
-      left: 0;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  /* Medium Devices, Desktops */
-  @media only screen and (max-width : 1185px) {
-    .titleText {
-      position: absolute;
-      top: 15px;
-      left: 0;
-      width: 100%;
-      font-family: 'Rubik Mono One', sans-serif;
-      font-size: 42px;
-      color: white;
-    }
-    .coldWarDetails {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 18px;
-      color: white;
-      position: absolute;
-      top: 625px;
-      left: 0;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  @media only screen and (max-width : 1056px) {
-    .coldWarDetails {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 16px;
-      color: white;
-      position: absolute;
-      top: 580px;
-      left: 0;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  /* Small Devices, Tablets */
-  @media only screen and (max-width : 980px) {
-    .coldWarDetails {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 16px;
-      color: white;
-      position: absolute;
-      top: 510px;
-      left: 0;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  /* Small Devices, Tablets */
-  @media only screen and (max-width : 950px) {
-    .titleText {
-      position: absolute;
-      top: 15px;
-      left: 0;
-      width: 100%;
-      font-family: 'Rubik Mono One', sans-serif;
-      font-size: 36px;
-      color: white;
-    }
-  }
-  /* Small Devices, Tablets */
-  @media only screen and (max-width : 880px) {
-    .titleText {
-      position: absolute;
-      top: 15px;
-      left: 0;
-      width: 100%;
-      font-family: 'Rubik Mono One', sans-serif;
-      font-size: 32px;
-      color: white;
-    }
-    .coldWarDetails {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 14px;
-      color: white;
-      position: absolute;
-      top: 460px;
-      left: 0;
-      width: 100%;
-      text-align: left;
-    }
-  }
-  /* Extra Small Devices, Phones */
-  @media only screen and (max-width : 480px) {
-    .titleText {
-      position: absolute;
-      top: 5px;
-      left: 0;
-      width: 100%;
-      font-family: 'Rubik Mono One', sans-serif;
-      font-size: 24px;
-      color: white;
-    }
-    .coldWarDetails {
-      font-family: 'Work Sans', sans-serif;
-      font-size: 12px;
-      color: white;
-      position: absolute;
-      top: 320px;
-      left: 0;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  #map {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 100%;
-    height: 100%;
-  }
-  /* Custom, iPhone Retina */
-  @media only screen and (max-width : 320px) {
-  }
-</style>
-<body>
-
-<div class="image">
-  <div> <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Trinity_Test_Fireball_16ms.jpg" class="eventImage"></div>
-  <div class="page-header">
-    <div class="titleText">Cold War Nuclear Arms Race<br><small><em>A Visualization</em></small></div>
-  </div>
-  <div class="coldWarDetails">
-    The Cold War was a dangerous time for all of humanity. By the year 1961, it was estimated that there were enough bombs in existence to destroy the world. These data visualizations will show you just how much firepower each country possesed.
-  </div>
-</div>
-
-<div id="map"></div>
-
-<div class="svgContainer">
-  Place map here
-  <svg width="1300" height="500"></svg>
-</div>
-
-<div id="countries">
-</div>
-</body>
-<script type="text/javascript">
-    var nuclearInvData = [];
-    var partitionedNukeInv = [];
-    var nuclearTestData = [];
-
-    var compiled = _.template(
-=======
   <head>
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
@@ -274,6 +11,11 @@
     <script src="https://d3js.org/topojson.v2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- End Added by Ian -->
+
+     <!-- Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+
 
     <!--Bootstrap-->
     <!-- Latest compiled and minified CSS -->
@@ -485,6 +227,14 @@
           /* Custom, iPhone Retina */
           @media only screen and (max-width : 320px) {
           }
+
+          #map {
+            display: flex;
+            justify-content: center;
+            align-self: center;
+            width: 100%;
+            height: 100%;
+          }
       </style>
     <body>
 
@@ -498,11 +248,7 @@
         </div>
       </div>
 
-
-      <div class="svgContainer">
-      Place map here
-        <svg width="1300" height="500"></svg>
-      </div>
+      <div id="map"></div>
 
       <div id="countries">
       </div>
@@ -513,7 +259,6 @@
       var nuclearTestData = [];
 
       var compiled = _.template(
->>>>>>> dd168d20b651d1af0acf2f7c354e2d948eb2f2b2
         "<div class='countries'>" +
         "<h2><%= Country %></h2>" +
         "<p><%= Year %></p>" +
@@ -629,32 +374,21 @@
 
         var svgNS = svgElement.namespaceURI;
         var rect = document.createElementNS(svgNS,'rect');
-<<<<<<< HEAD
         rect.setAttribute('width',1300);
-        rect.setAttribute('height',500);
+        rect.setAttribute('height',530);
         rect.setAttribute('fill','#EEE');
-=======
-            rect.setAttribute('width',1300);
-            rect.setAttribute('height',530);
-            rect.setAttribute('fill','#EEE');
->>>>>>> dd168d20b651d1af0acf2f7c354e2d948eb2f2b2
         svgElement.appendChild(rect);
 
         document.body.appendChild(containerDiv);
 
 
         var svg = d3.select(svgElement),
-<<<<<<< HEAD
-            //var svg = d3.select(countryData[0].Country),
-            margin = {top: 20, right: 20, bottom: 30, left: 40},
-            width = +svg.attr("width") - margin.left - margin.right,
-            height = +svg.attr("height") - margin.top - margin.bottom;
-=======
+
         //var svg = d3.select(countryData[0].Country),
         margin = {top: 20, right: 20, bottom: 40, left: 40},
         width = +svg.attr("width") - margin.left - margin.right,
         height = +svg.attr("height") - margin.top - margin.bottom;
->>>>>>> dd168d20b651d1af0acf2f7c354e2d948eb2f2b2
+
         var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
             y = d3.scaleLinear().rangeRound([height, 0]);
 
