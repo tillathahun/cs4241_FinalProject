@@ -20,6 +20,9 @@ var server = http.createServer (function (req, res) {
     case '/index.js':
       sendFile(res, 'index.js', 'text/javascript')
       break
+    case '/README.md':
+      sendFile(res, 'readme.html', 'text/html');
+      break;
     case '/worldNuclearInventory':
       // Get content from file
       sendJSON(res, './public/data/worldNuclearInventory.json');
