@@ -28,6 +28,7 @@
           border-radius: 10px;
           justify-content: center;
           align-items: center;
+          flex-direction: column;
         }
         .eventImage {
           width: 100%;
@@ -344,6 +345,15 @@
 
         var containerDiv = document.createElementNS("http://www.w3.org/1999/xhtml","div");
           containerDiv.setAttribute("class", "graphContainer");
+
+        console.log('Country name: ' + countryData[0].Country);
+        var containerCountry = document.createElementNS("http://www.w3.org/1999/xhtml", "div");
+        containerCountry.innerHTML = countryData[0].Country;
+        containerCountry.style.fontFamily = "Rubik Mono One,sans-serif";
+        containerCountry.style.marginBottom = "10px";
+        containerCountry.style.fontSize = "45px";
+
+        containerDiv.appendChild(containerCountry);
 
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         svgElement.setAttribute('width',1300);
