@@ -1,1 +1,1 @@
-console.log("hahahahahahhhahahahahahhahahhahahahhahhahahhahahahhahahahhahahhahahahaha");
+console.log("inside script.js");
