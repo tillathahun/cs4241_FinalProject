@@ -14,12 +14,15 @@ var server = http.createServer (function (req, res) {
     case '/index.html':
       sendFile(res, 'public/index.html')
       break
-    case '/css/style.css':
-      sendFile(res, 'css/style.css', 'text/css')
+    case '/style.css':
+      sendFile(res, 'style.css', 'text/css')
       break
     case '/index.js':
       sendFile(res, 'index.js', 'text/javascript')
       break
+    case '/README.md':
+      sendFile(res, 'readme.html', 'text/html');
+      break;
     case '/worldNuclearInventory':
       // Get content from file
       sendJSON(res, './public/data/worldNuclearInventory.json');
