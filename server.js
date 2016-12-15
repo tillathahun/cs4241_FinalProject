@@ -17,17 +17,8 @@ var server = http.createServer (function (req, res) {
     case '/css/style.css':
       sendFile(res, 'css/style.css', 'text/css')
       break
-    case '/d3-geomap/css/d3.geomap.css':
-      sendFile(res, 'd3-geomap/d3.geomap.css', 'text/css')
-      break
-    case '/d3-geomap/js/d3.geomap.js':
-      sendFile(res, 'd3-geomap/js/d3.geomap.js', 'application/javascript')
-      break
-    case '/d3-geomap/js/d3.geomap.min.js':
-      sendFile(res, 'd3-geomap/js/d3.geomap.min.js', 'application/javascript')
-      break
-    case '/js/script.js':
-      sendFile(res, 'js/script.js', 'application/javascript')
+    case '/index.js':
+      sendFile(res, 'index.js', 'text/javascript')
       break
     case '/worldNuclearInventory':
       // Get content from file
@@ -36,12 +27,6 @@ var server = http.createServer (function (req, res) {
     case '/nuclearTests':
       // Get content from file
       sendJSON(res, './public/data/nuclearTests.json');
-      break
-    case '/d3-geomap/topojson/world/countries.json':
-      sendFile(res, 'd3-geomap/topojson/world/countries.json', 'application/json')
-      break
-    case '/d3-geomap/vendor/d3.geomap.dependencies.min.js':
-      sendFile(res, 'd3-geomap/vendor/d3.geomap.dependencies.min.js', 'application/javascript')
       break
     default:
       res.end('404 not found')
@@ -68,17 +53,12 @@ function sendJSON(res, filename) {
   })
 }
 
-function sendFile(res, filename) {
-  res.writeHead(200, {'Content-type': 'text/html'})
+function sendFile(res, filename, contentType) {
+  contentType = contentType || 'text/html';
 
-  var stream = fs.createReadStream(filename)
-
-  stream.on('data', function(data) {
-    res.write(data);
+  fs.readFile(filename, function(error, content) {
+    res.writeHead(200, {'Content-type': contentType})
+    res.end(content, 'utf-8')
   })
 
-  stream.on('end', function(data) {
-    res.end();
-    return;
-  })
 }
