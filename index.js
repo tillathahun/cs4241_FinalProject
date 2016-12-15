@@ -1,7 +1,8 @@
-var d3 = require("d3");
-
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
 console.log('inside index.js');
-
 
 var m = [20, 20, 30, 20],
     w = 960 - m[1] - m[3],
