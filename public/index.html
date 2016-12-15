@@ -26,6 +26,7 @@
           margin: 10px 2.5%;
           background-color: #C2C2C2;
           border-radius: 10px;
+          flex-direction: column;
           justify-content: center;
           align-items: center;
         }
@@ -393,6 +394,7 @@
             .attr("y", 6)
             .attr("dy", "0.71em")
             .attr("text-anchor", "end")
+            .attr("transform", "rotate(90)")
             .text("Year");
 
         g.selectAll(".bar")
