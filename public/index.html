@@ -296,6 +296,12 @@
             nuclearInvData = jsonObj;
             console.log('-----------nuclearInvData-------------');
             console.log(nuclearInvData);
+            partitionedNukeInv = _.values(_.groupBy(nuclearInvData, "Country"));
+            console.log(partitionedNukeInv);
+            // drawEachGraph(partitionedNukeInv[0]);
+            _.map(partitionedNukeInv, (n) => {
+                drawEachGraph(n);
+            });
             drawShowreel(nuclearInvData);
         } else if (datasetName === '/nuclearTests'){
             console.log('-----------nuclearTestData-------------');
@@ -469,9 +475,11 @@
     }
 
     //--------------------------------------------------------------------------------------------------------------------------------------------------------
-    //  Leaflet Section Below
+    //  Showreel Section Below
     //--------------------------------------------------------------------------------------------------------------------------------------------------------
     function drawShowreel(data) {
+      console.log('drawShowreel');
+      console.log(data)
       var summaryDiv = document.createElementNS("http://www.w3.org/1999/xhtml","div");
 
 
@@ -1033,13 +1041,6 @@
           lines();
         }, duration);
       }
-
-      partitionedNukeInv = _.values(_.groupBy(data, "Country"));
-      console.log(partitionedNukeInv);
-      // drawEachGraph(partitionedNukeInv[0]);
-      _.map(partitionedNukeInv, (n) => {
-          drawEachGraph(n);
-      });
     }
 
 
