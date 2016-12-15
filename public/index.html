@@ -21,7 +21,8 @@
   <style>
         .graphContainer {
           display: flex;
-          height: 600px;
+          height: auto;
+          padding: 30px;
           width: 95vw;
           margin: 10px 2.5%;
           background-color: #C2C2C2;
@@ -358,13 +359,13 @@
 
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         svgElement.setAttribute('width',1300);
-        svgElement.setAttribute('height',520);
+        svgElement.setAttribute('height',530);
         containerDiv.appendChild(svgElement);
 
         var svgNS = svgElement.namespaceURI;
         var rect = document.createElementNS(svgNS,'rect');
             rect.setAttribute('width',1300);
-            rect.setAttribute('height',520);
+            rect.setAttribute('height',530);
             rect.setAttribute('fill','#EEE');
         svgElement.appendChild(rect);
 
